@@ -1,10 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand"> Ma banque</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <a class="navbar-brand" href="#" style="margin-left: 10px;">
+    <i class="fa-solid fa-piggy-bank" style="margin-right: 10px;"></i>
+    Ma banque
+    </a>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -18,6 +17,14 @@
   </nav>
   <router-view />
 </template>
+
+<script>
+import '@fortawesome/fontawesome-free/css/all.css'
+export default {
+    name: 'App',
+}
+</script>
+
 
 <style>
 #app {

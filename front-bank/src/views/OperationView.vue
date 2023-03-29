@@ -30,6 +30,7 @@ export default {
         handleFormSubmitted(formData) {
             this.formData = formData;
             this.showFormData = true;
+            console.log(formData)
             this.$refs.formDataSummary.addFormSubmission(formData);
         }
     }
