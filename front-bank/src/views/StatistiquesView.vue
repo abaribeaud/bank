@@ -31,7 +31,7 @@
         </form>
         <div ref="chart"></div>
         </div>
-        <div class="stat-container">
+        <div class="stat-container" style="margin-top: 30px;">
             <TransactionByCategorie :month="selectedMonth" :year="selectedYear"></TransactionByCategorie>
         </div>
         <br>
