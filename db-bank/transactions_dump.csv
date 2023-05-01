@@ -1,0 +1,1001 @@
+tr_id,tr_date,tr_type,tr_amount,tr_label,tr_category,tr_sub_category,tr_description
+1,"2020-01-01 00:00:00",debit,-207.358,Charlie,5,20,"Grocery store"
+2,"2020-01-02 02:18:22",debit,-54.5825,David,1,4,
+3,"2020-01-03 04:36:45",credit,40.6479,David,4,15,"Grocery store"
+4,"2020-01-04 06:55:08",debit,-180.854,David,5,17,Restaurant
+5,"2020-01-05 09:13:30",credit,97.8659,Charlie,3,9,
+6,"2020-01-06 11:31:53",credit,118.399,Alice,4,13,
+7,"2020-01-07 13:50:16",credit,190.459,Emily,1,3,"Grocery store"
+8,"2020-01-08 16:08:38",debit,-151.003,David,2,6,"Gas station"
+9,"2020-01-09 18:27:01",debit,-179.486,Alice,1,2,"Grocery store"
+10,"2020-01-10 20:45:24",debit,-161.906,Alice,4,14,
+11,"2020-01-11 23:03:47",debit,-51.1738,David,5,17,
+12,"2020-01-13 01:22:09",debit,-55.6125,David,5,20,
+13,"2020-01-14 03:40:32",credit,71.1337,Bob,1,2,
+14,"2020-01-15 05:58:55",credit,140.148,Bob,2,5,
+15,"2020-01-16 08:17:17",debit,-138.024,Charlie,2,7,
+16,"2020-01-17 10:35:40",credit,20.7171,David,5,20,Restaurant
+17,"2020-01-18 12:54:03",credit,15.4293,Charlie,3,12,Restaurant
+18,"2020-01-19 15:12:25",credit,152.737,Bob,5,20,"Gas station"
+19,"2020-01-20 17:30:48",credit,74.9003,David,2,8,
+20,"2020-01-21 19:49:11",credit,85.2656,Emily,5,20,
+21,"2020-01-22 22:07:34",credit,74.9306,Bob,3,11,
+22,"2020-01-24 00:25:56",credit,68.3998,Alice,5,18,Restaurant
+23,"2020-01-25 02:44:19",credit,105.297,Bob,4,15,"Grocery store"
+24,"2020-01-26 05:02:42",credit,129.044,Alice,1,3,Restaurant
+25,"2020-01-27 07:21:04",debit,-98.6216,Charlie,3,10,Restaurant
+26,"2020-01-28 09:39:27",credit,23.3851,Bob,5,18,Restaurant
+27,"2020-01-29 11:57:50",debit,-43.6918,David,1,1,"Gas station"
+28,"2020-01-30 14:16:12",debit,-86.5406,Alice,2,7,Restaurant
+29,"2020-01-31 16:34:35",credit,70.8517,Charlie,3,9,"Grocery store"
+30,"2020-02-01 18:52:58",credit,115.631,David,2,8,"Grocery store"
+31,"2020-02-02 21:11:21",debit,-119.735,David,4,15,
+32,"2020-02-03 23:29:43",credit,115.786,Alice,4,16,
+33,"2020-02-05 01:48:06",credit,54.0378,Bob,3,12,"Grocery store"
+34,"2020-02-06 04:06:29",debit,-12.3578,Alice,3,9,Restaurant
+35,"2020-02-07 06:24:51",credit,85.3261,Emily,1,2,Restaurant
+36,"2020-02-08 08:43:14",debit,-202.684,David,1,3,"Gas station"
+37,"2020-02-09 11:01:37",credit,126.47,Emily,3,9,Restaurant
+38,"2020-02-10 13:20:00",credit,121.433,Alice,1,1,
+39,"2020-02-11 15:38:22",credit,74.6275,Charlie,3,9,
+40,"2020-02-12 17:56:45",debit,-126.529,Charlie,5,17,
+41,"2020-02-13 20:15:08",debit,-116.309,Alice,2,5,
+42,"2020-02-14 22:33:30",debit,-70.2552,David,4,14,Restaurant
+43,"2020-02-16 00:51:53",credit,121.346,Alice,2,8,"Gas station"
+44,"2020-02-17 03:10:16",debit,-96.76,David,2,5,"Gas station"
+45,"2020-02-18 05:28:38",debit,-84.6329,Bob,3,11,
+46,"2020-02-19 07:47:01",credit,150.624,Alice,1,4,"Gas station"
+47,"2020-02-20 10:05:24",debit,-116.913,David,3,9,"Grocery store"
+48,"2020-02-21 12:23:47",credit,137.304,Emily,5,17,"Gas station"
+49,"2020-02-22 14:42:09",debit,-108.989,David,4,15,"Grocery store"
+50,"2020-02-23 17:00:32",credit,54.1313,Charlie,4,13,"Grocery store"
+51,"2020-02-24 19:18:55",debit,-112.805,Charlie,1,1,
+52,"2020-02-25 21:37:17",debit,-104.239,Charlie,5,19,"Gas station"
+53,"2020-02-26 23:55:40",debit,-80.7747,Charlie,5,18,"Grocery store"
+54,"2020-02-28 02:14:03",debit,-35.1379,Charlie,5,17,"Gas station"
+55,"2020-02-29 04:32:25",credit,157.425,Alice,2,7,
+56,"2020-03-01 06:50:48",debit,-63.8652,Bob,1,2,"Grocery store"
+57,"2020-03-02 09:09:11",credit,31.8027,Bob,4,13,"Grocery store"
+58,"2020-03-03 11:27:34",debit,-178.234,David,3,9,
+59,"2020-03-04 13:45:56",debit,-60.3592,David,2,7,"Gas station"
+60,"2020-03-05 16:04:19",credit,117.274,Alice,1,2,"Grocery store"
+61,"2020-03-06 18:22:42",credit,183.411,David,5,17,"Gas station"
+62,"2020-03-07 20:41:04",debit,-133.938,David,5,18,
+63,"2020-03-08 22:59:27",credit,158.211,Charlie,2,8,
+64,"2020-03-10 01:17:50",credit,77.6618,Bob,2,5,"Gas station"
+65,"2020-03-11 03:36:12",debit,-129.906,Emily,3,9,"Grocery store"
+66,"2020-03-12 05:54:35",debit,-109.603,Bob,3,9,Restaurant
+67,"2020-03-13 08:12:58",debit,-7.34629,David,2,8,
+68,"2020-03-14 10:31:21",credit,55.7386,Bob,4,13,
+69,"2020-03-15 12:49:43",credit,75.2804,Charlie,3,9,
+70,"2020-03-16 15:08:06",credit,48.7507,Emily,4,14,
+71,"2020-03-17 17:26:29",debit,-5.35824,David,1,3,"Gas station"
+72,"2020-03-18 19:44:51",debit,-84.4305,Alice,4,16,Restaurant
+73,"2020-03-19 22:03:14",debit,-94.0666,Charlie,5,18,"Gas station"
+74,"2020-03-21 00:21:37",debit,-141.668,David,5,17,"Grocery store"
+75,"2020-03-22 02:40:00",debit,-53.5578,David,4,15,Restaurant
+76,"2020-03-23 04:58:22",debit,-179.063,Charlie,3,12,Restaurant
+77,"2020-03-24 07:16:45",debit,-64.0062,Bob,1,1,Restaurant
+78,"2020-03-25 09:35:08",credit,133.562,Bob,4,13,"Grocery store"
+79,"2020-03-26 11:53:30",debit,-156.065,Charlie,1,1,Restaurant
+80,"2020-03-27 14:11:53",credit,158.555,Bob,3,11,"Grocery store"
+81,"2020-03-28 16:30:16",debit,-106.922,Alice,4,15,"Grocery store"
+82,"2020-03-29 18:48:38",credit,152.261,Alice,2,6,Restaurant
+83,"2020-03-30 21:07:01",debit,-82.8355,Alice,1,3,"Grocery store"
+84,"2020-03-31 23:25:24",credit,57.9042,Alice,3,12,
+85,"2020-04-02 01:43:47",credit,69.5326,Emily,4,14,Restaurant
+86,"2020-04-03 04:02:09",credit,92.0243,Bob,2,7,Restaurant
+87,"2020-04-04 06:20:32",credit,67.677,Emily,3,10,Restaurant
+88,"2020-04-05 08:38:55",credit,88.6154,David,5,19,Restaurant
+89,"2020-04-06 10:57:17",credit,78.6881,Emily,2,8,"Gas station"
+90,"2020-04-07 13:15:40",credit,118.882,Emily,1,4,"Gas station"
+91,"2020-04-08 15:34:03",credit,107.058,Bob,5,18,Restaurant
+92,"2020-04-09 17:52:25",debit,-98.2453,David,4,13,"Grocery store"
+93,"2020-04-10 20:10:48",debit,-55.5178,Charlie,3,12,
+94,"2020-04-11 22:29:11",debit,-62.6618,David,1,4,"Gas station"
+95,"2020-04-13 00:47:34",credit,130.63,Alice,2,7,"Grocery store"
+96,"2020-04-14 03:05:56",debit,-204.016,Charlie,3,9,Restaurant
+97,"2020-04-15 05:24:19",credit,174.943,David,4,13,"Gas station"
+98,"2020-04-16 07:42:42",credit,90.3113,Alice,2,8,Restaurant
+99,"2020-04-17 10:01:04",debit,-32.1689,Charlie,4,14,Restaurant
+100,"2020-04-18 12:19:27",debit,-166.603,Alice,4,13,"Gas station"
+101,"2020-04-19 14:37:50",credit,39.6894,Charlie,1,1,
+102,"2020-04-20 16:56:12",debit,-76.6294,David,2,8,"Gas station"
+103,"2020-04-21 19:14:35",credit,157.77,David,1,4,Restaurant
+104,"2020-04-22 21:32:58",debit,-25.9041,Alice,4,16,Restaurant
+105,"2020-04-23 23:51:21",debit,-141.03,Charlie,5,18,
+106,"2020-04-25 02:09:43",credit,103.653,Charlie,3,9,
+107,"2020-04-26 04:28:06",debit,-115.672,David,5,19,"Gas station"
+108,"2020-04-27 06:46:29",credit,190.946,David,4,14,
+109,"2020-04-28 09:04:51",credit,37.3017,Alice,4,16,"Grocery store"
+110,"2020-04-29 11:23:14",credit,177.919,David,1,4,Restaurant
+111,"2020-04-30 13:41:37",debit,-148.045,David,2,7,Restaurant
+112,"2020-05-01 16:00:00",debit,-53.2155,David,5,20,"Grocery store"
+113,"2020-05-02 18:18:22",credit,91.0646,Alice,4,13,Restaurant
+114,"2020-05-03 20:36:45",credit,86.5617,David,4,14,"Gas station"
+115,"2020-05-04 22:55:08",credit,115.101,Emily,5,19,
+116,"2020-05-06 01:13:30",credit,130.79,Bob,2,6,"Grocery store"
+117,"2020-05-07 03:31:53",credit,34.9555,Alice,1,4,Restaurant
+118,"2020-05-08 05:50:16",debit,-100.905,Emily,5,20,"Grocery store"
+119,"2020-05-09 08:08:38",debit,-108.214,Charlie,2,8,"Gas station"
+120,"2020-05-10 10:27:01",debit,-166.652,Charlie,5,19,
+121,"2020-05-11 12:45:24",debit,-230.196,Bob,1,2,"Grocery store"
+122,"2020-05-12 15:03:47",credit,119.851,Charlie,3,9,"Gas station"
+123,"2020-05-13 17:22:09",debit,-76.1165,Emily,5,18,Restaurant
+124,"2020-05-14 19:40:32",credit,94.8293,Emily,4,13,"Gas station"
+125,"2020-05-15 21:58:55",debit,-111.501,Charlie,2,8,"Gas station"
+126,"2020-05-17 00:17:17",credit,56.6146,Charlie,5,20,"Gas station"
+127,"2020-05-18 02:35:40",debit,-93.7758,David,4,15,
+128,"2020-05-19 04:54:03",credit,61.9378,Bob,1,3,"Grocery store"
+129,"2020-05-20 07:12:25",debit,-116.221,Bob,4,15,
+130,"2020-05-21 09:30:48",credit,117.025,David,1,1,"Grocery store"
+131,"2020-05-22 11:49:11",debit,-43.0251,Bob,5,17,"Grocery store"
+132,"2020-05-23 14:07:34",credit,81.8824,Alice,3,11,"Gas station"
+133,"2020-05-24 16:25:56",debit,-69.3711,Bob,1,1,"Gas station"
+134,"2020-05-25 18:44:19",credit,96.9756,Bob,4,16,Restaurant
+135,"2020-05-26 21:02:42",debit,-154.632,Alice,3,12,Restaurant
+136,"2020-05-27 23:21:04",credit,2.30463,David,2,7,Restaurant
+137,"2020-05-29 01:39:27",debit,-120.952,Emily,2,5,"Gas station"
+138,"2020-05-30 03:57:50",debit,-154.984,David,3,12,"Gas station"
+139,"2020-05-31 06:16:12",debit,-110.933,Emily,5,20,"Gas station"
+140,"2020-06-01 08:34:35",debit,-57.5884,Emily,5,20,"Grocery store"
+141,"2020-06-02 10:52:58",credit,17.1694,Charlie,4,16,"Grocery store"
+142,"2020-06-03 13:11:21",debit,-48.7695,Emily,5,17,"Gas station"
+143,"2020-06-04 15:29:43",debit,-166.761,Charlie,2,8,
+144,"2020-06-05 17:48:06",debit,-142.533,Emily,4,13,Restaurant
+145,"2020-06-06 20:06:29",credit,164.751,Charlie,3,10,"Grocery store"
+146,"2020-06-07 22:24:51",credit,102.515,Bob,5,18,Restaurant
+147,"2020-06-09 00:43:14",credit,117.477,Charlie,4,14,"Gas station"
+148,"2020-06-10 03:01:37",debit,-104.364,Charlie,4,16,"Gas station"
+149,"2020-06-11 05:20:00",credit,140.935,David,3,12,"Grocery store"
+150,"2020-06-12 07:38:22",debit,-76.2562,David,1,2,
+151,"2020-06-13 09:56:45",credit,71.5622,Bob,5,18,
+152,"2020-06-14 12:15:08",debit,-102.931,Emily,5,19,"Grocery store"
+153,"2020-06-15 14:33:30",debit,-75.5446,Bob,4,15,Restaurant
+154,"2020-06-16 16:51:53",credit,82.1564,Emily,1,2,
+155,"2020-06-17 19:10:16",debit,-78.1465,Bob,1,2,Restaurant
+156,"2020-06-18 21:28:38",credit,87.8233,Charlie,4,14,"Gas station"
+157,"2020-06-19 23:47:01",credit,95.3111,Alice,2,6,"Gas station"
+158,"2020-06-21 02:05:24",debit,-69.2009,David,2,6,
+159,"2020-06-22 04:23:47",debit,-120.732,David,2,7,Restaurant
+160,"2020-06-23 06:42:09",debit,-110.105,Emily,3,9,Restaurant
+161,"2020-06-24 09:00:32",debit,-85.122,Emily,4,14,
+162,"2020-06-25 11:18:55",credit,134.083,Alice,5,20,
+163,"2020-06-26 13:37:17",credit,126.916,Alice,5,20,
+164,"2020-06-27 15:55:40",credit,69.2975,Charlie,2,6,Restaurant
+165,"2020-06-28 18:14:03",debit,-138.453,Charlie,5,20,"Gas station"
+166,"2020-06-29 20:32:25",credit,203.162,Emily,4,15,"Gas station"
+167,"2020-06-30 22:50:48",credit,176.236,Charlie,1,4,"Gas station"
+168,"2020-07-02 01:09:11",credit,119.477,Bob,4,13,
+169,"2020-07-03 03:27:34",credit,27.903,Emily,4,13,"Grocery store"
+170,"2020-07-04 05:45:56",credit,142.284,David,4,15,Restaurant
+171,"2020-07-05 08:04:19",credit,77.7344,David,4,14,"Gas station"
+172,"2020-07-06 10:22:42",credit,25.3867,Charlie,3,10,"Gas station"
+173,"2020-07-07 12:41:04",debit,-110.589,Emily,5,17,"Gas station"
+174,"2020-07-08 14:59:27",credit,81.6408,Alice,5,18,"Grocery store"
+175,"2020-07-09 17:17:50",credit,51.2974,Emily,1,2,
+176,"2020-07-10 19:36:12",debit,-32.9066,Charlie,5,19,"Grocery store"
+177,"2020-07-11 21:54:35",debit,-22.5184,Charlie,1,4,
+178,"2020-07-13 00:12:58",credit,115.677,Emily,5,20,"Grocery store"
+179,"2020-07-14 02:31:21",credit,79.8223,Alice,4,15,"Grocery store"
+180,"2020-07-15 04:49:43",credit,46.291,Charlie,4,14,"Gas station"
+181,"2020-07-16 07:08:06",debit,-99.9294,Charlie,1,1,"Grocery store"
+182,"2020-07-17 09:26:29",credit,154.886,David,1,3,Restaurant
+183,"2020-07-18 11:44:51",credit,143.617,Alice,1,4,
+184,"2020-07-19 14:03:14",debit,-12.241,Bob,5,17,Restaurant
+185,"2020-07-20 16:21:37",debit,-139.774,Charlie,4,14,Restaurant
+186,"2020-07-21 18:40:00",credit,0.376554,Emily,4,13,
+187,"2020-07-22 20:58:22",credit,159.307,David,4,15,
+188,"2020-07-23 23:16:45",debit,-131.428,Emily,1,1,"Gas station"
+189,"2020-07-25 01:35:08",debit,-97.1079,Emily,1,3,Restaurant
+190,"2020-07-26 03:53:30",credit,192.795,Alice,2,8,Restaurant
+191,"2020-07-27 06:11:53",credit,101.424,Alice,2,6,"Grocery store"
+192,"2020-07-28 08:30:16",debit,-90.9283,David,5,19,
+193,"2020-07-29 10:48:38",debit,-130.62,Emily,3,12,"Gas station"
+194,"2020-07-30 13:07:01",credit,61.8338,David,5,17,"Gas station"
+195,"2020-07-31 15:25:24",credit,82.2519,Charlie,4,16,"Gas station"
+196,"2020-08-01 17:43:47",debit,-86.9112,Bob,5,20,Restaurant
+197,"2020-08-02 20:02:09",debit,-140.606,Charlie,1,4,Restaurant
+198,"2020-08-03 22:20:32",credit,124.131,Charlie,1,3,Restaurant
+199,"2020-08-05 00:38:55",debit,-55.6744,David,1,1,"Gas station"
+200,"2020-08-06 02:57:17",credit,98.1122,David,5,20,Restaurant
+201,"2020-08-07 05:15:40",credit,71.8523,Alice,5,20,"Grocery store"
+202,"2020-08-08 07:34:03",debit,-144.885,Emily,3,12,Restaurant
+203,"2020-08-09 09:52:25",debit,-119.162,Alice,2,7,"Grocery store"
+204,"2020-08-10 12:10:48",debit,-33.7597,Alice,5,18,"Gas station"
+205,"2020-08-11 14:29:11",credit,156.963,Charlie,2,6,"Grocery store"
+206,"2020-08-12 16:47:34",credit,97.226,Emily,3,9,"Gas station"
+207,"2020-08-13 19:05:56",debit,-126.689,Bob,5,20,Restaurant
+208,"2020-08-14 21:24:19",debit,-124.537,David,5,18,"Gas station"
+209,"2020-08-15 23:42:42",debit,-148.641,David,5,17,Restaurant
+210,"2020-08-17 02:01:04",credit,140.345,Bob,2,6,
+211,"2020-08-18 04:19:27",credit,115.877,Alice,3,11,Restaurant
+212,"2020-08-19 06:37:50",credit,102.574,Emily,5,20,"Grocery store"
+213,"2020-08-20 08:56:12",debit,-51.3942,Charlie,5,17,Restaurant
+214,"2020-08-21 11:14:35",debit,-107.992,Bob,2,5,
+215,"2020-08-22 13:32:58",credit,138.293,Bob,3,9,"Gas station"
+216,"2020-08-23 15:51:21",credit,13.3068,Emily,4,16,
+217,"2020-08-24 18:09:43",debit,-85.0253,Emily,1,1,"Grocery store"
+218,"2020-08-25 20:28:06",debit,-195.438,Alice,2,8,Restaurant
+219,"2020-08-26 22:46:29",debit,-39.3939,David,4,14,Restaurant
+220,"2020-08-28 01:04:51",credit,93.8859,Alice,5,18,
+221,"2020-08-29 03:23:14",debit,-111.303,David,2,8,"Gas station"
+222,"2020-08-30 05:41:37",debit,-121.243,Emily,1,3,Restaurant
+223,"2020-08-31 08:00:00",debit,-34.852,Bob,5,18,
+224,"2020-09-01 10:18:22",debit,-112.243,Bob,2,8,Restaurant
+225,"2020-09-02 12:36:45",debit,-133.951,Bob,2,5,Restaurant
+226,"2020-09-03 14:55:08",debit,-183.037,Charlie,4,13,
+227,"2020-09-04 17:13:30",credit,1.56352,David,1,1,Restaurant
+228,"2020-09-05 19:31:53",credit,78.2335,Charlie,4,15,Restaurant
+229,"2020-09-06 21:50:16",debit,-56.0082,David,4,16,
+230,"2020-09-08 00:08:38",credit,106.442,Charlie,5,17,"Grocery store"
+231,"2020-09-09 02:27:01",debit,-102.767,Emily,2,7,Restaurant
+232,"2020-09-10 04:45:24",debit,-173.602,Charlie,5,18,"Grocery store"
+233,"2020-09-11 07:03:47",credit,126.269,Alice,5,20,"Gas station"
+234,"2020-09-12 09:22:09",debit,-44.4522,Bob,1,3,"Grocery store"
+235,"2020-09-13 11:40:32",debit,-90.5217,Bob,4,13,
+236,"2020-09-14 13:58:55",credit,141.282,Bob,5,20,"Gas station"
+237,"2020-09-15 16:17:17",credit,223.512,Charlie,1,3,"Gas station"
+238,"2020-09-16 18:35:40",credit,115.554,Alice,5,17,
+239,"2020-09-17 20:54:03",debit,-70.8141,Emily,1,3,"Gas station"
+240,"2020-09-18 23:12:25",credit,129.025,David,2,5,"Gas station"
+241,"2020-09-20 01:30:48",debit,-141.631,David,4,14,Restaurant
+242,"2020-09-21 03:49:11",credit,73.0885,Charlie,1,4,"Gas station"
+243,"2020-09-22 06:07:34",credit,113.066,Emily,2,7,Restaurant
+244,"2020-09-23 08:25:56",credit,122.867,Bob,2,8,"Grocery store"
+245,"2020-09-24 10:44:19",credit,89.5171,Alice,2,8,
+246,"2020-09-25 13:02:42",credit,13.3401,Charlie,3,12,
+247,"2020-09-26 15:21:04",debit,-128.828,Alice,2,7,"Grocery store"
+248,"2020-09-27 17:39:27",debit,-103.689,Alice,4,14,Restaurant
+249,"2020-09-28 19:57:50",debit,-19.8721,David,2,6,Restaurant
+250,"2020-09-29 22:16:12",debit,-127.38,Bob,5,20,Restaurant
+251,"2020-10-01 00:34:35",debit,-1.58392,Alice,2,6,"Gas station"
+252,"2020-10-02 02:52:58",credit,89.0223,Bob,5,20,
+253,"2020-10-03 05:11:21",debit,-87.5332,Charlie,5,20,
+254,"2020-10-04 07:29:43",debit,-149.916,Charlie,3,9,
+255,"2020-10-05 09:48:06",debit,-97.1086,Bob,1,4,"Gas station"
+256,"2020-10-06 12:06:29",debit,-50.7549,David,5,20,"Grocery store"
+257,"2020-10-07 14:24:51",credit,98.2762,Alice,5,19,Restaurant
+258,"2020-10-08 16:43:14",debit,-119.029,David,4,16,Restaurant
+259,"2020-10-09 19:01:37",debit,-123.725,Bob,4,16,Restaurant
+260,"2020-10-10 21:20:00",debit,-72.2248,David,1,1,
+261,"2020-10-11 23:38:22",debit,-80.3533,Charlie,5,18,"Grocery store"
+262,"2020-10-13 01:56:45",debit,-71.9351,Alice,4,16,Restaurant
+263,"2020-10-14 04:15:08",credit,87.4013,Bob,2,7,
+264,"2020-10-15 06:33:30",debit,-128.305,David,5,19,"Gas station"
+265,"2020-10-16 08:51:53",debit,-47.3116,David,1,2,"Grocery store"
+266,"2020-10-17 11:10:16",credit,82.0534,Charlie,2,7,Restaurant
+267,"2020-10-18 13:28:38",debit,-132.665,Alice,3,10,Restaurant
+268,"2020-10-19 15:47:01",credit,96.5316,Charlie,2,5,"Grocery store"
+269,"2020-10-20 18:05:24",credit,155.997,David,2,5,Restaurant
+270,"2020-10-21 20:23:47",credit,192.082,Emily,5,17,"Gas station"
+271,"2020-10-22 22:42:09",credit,115.239,David,2,7,"Gas station"
+272,"2020-10-24 01:00:32",debit,-59.0484,Bob,2,8,Restaurant
+273,"2020-10-25 03:18:55",debit,-143.795,Bob,5,17,"Gas station"
+274,"2020-10-26 05:37:17",debit,-91.3597,David,4,16,"Gas station"
+275,"2020-10-27 07:55:40",debit,-162.492,Alice,4,15,"Grocery store"
+276,"2020-10-28 10:14:03",debit,-53.8847,Emily,1,3,"Gas station"
+277,"2020-10-29 12:32:25",credit,93.4655,Bob,5,17,
+278,"2020-10-30 14:50:48",debit,-165.227,Emily,5,17,Restaurant
+279,"2020-10-31 17:09:11",credit,130.235,Emily,5,20,"Gas station"
+280,"2020-11-01 19:27:34",credit,88.3978,Bob,3,11,Restaurant
+281,"2020-11-02 21:45:56",credit,109.079,Alice,1,1,"Grocery store"
+282,"2020-11-04 00:04:19",debit,-123.196,Bob,1,3,Restaurant
+283,"2020-11-05 02:22:42",debit,-89.7742,Alice,2,6,"Gas station"
+284,"2020-11-06 04:41:04",debit,-173.141,David,5,20,Restaurant
+285,"2020-11-07 06:59:27",credit,125.307,Alice,1,1,Restaurant
+286,"2020-11-08 09:17:50",credit,0.655772,Bob,3,12,"Grocery store"
+287,"2020-11-09 11:36:12",debit,-128.054,Bob,3,10,"Grocery store"
+288,"2020-11-10 13:54:35",debit,-117.156,Alice,5,20,"Gas station"
+289,"2020-11-11 16:12:58",debit,-98.3074,Bob,4,16,
+290,"2020-11-12 18:31:21",credit,96.9222,Alice,4,15,"Grocery store"
+291,"2020-11-13 20:49:43",credit,64.4398,Emily,3,11,"Gas station"
+292,"2020-11-14 23:08:06",debit,-261.028,Charlie,2,7,Restaurant
+293,"2020-11-16 01:26:29",credit,93.9944,Charlie,1,4,"Gas station"
+294,"2020-11-17 03:44:51",credit,117.148,Charlie,5,18,"Grocery store"
+295,"2020-11-18 06:03:14",debit,-190.513,Charlie,5,19,Restaurant
+296,"2020-11-19 08:21:37",debit,-130.539,Bob,4,15,"Gas station"
+297,"2020-11-20 10:40:00",debit,-81.3221,Emily,2,7,Restaurant
+298,"2020-11-21 12:58:22",debit,-99.8855,Charlie,4,14,"Grocery store"
+299,"2020-11-22 15:16:45",debit,-123.836,Emily,2,6,"Grocery store"
+300,"2020-11-23 17:35:08",credit,130.908,Alice,4,16,"Grocery store"
+301,"2020-11-24 19:53:30",debit,-88.2592,Charlie,1,4,"Grocery store"
+302,"2020-11-25 22:11:53",debit,-5.06527,Bob,3,10,Restaurant
+303,"2020-11-27 00:30:16",credit,75.6252,Bob,1,1,"Grocery store"
+304,"2020-11-28 02:48:38",credit,15.1372,Alice,1,3,"Gas station"
+305,"2020-11-29 05:07:01",debit,-146.742,Charlie,4,16,Restaurant
+306,"2020-11-30 07:25:24",credit,168.358,Charlie,2,7,Restaurant
+307,"2020-12-01 09:43:47",credit,40.9712,Bob,5,17,
+308,"2020-12-02 12:02:09",debit,-85.4544,Bob,2,6,"Gas station"
+309,"2020-12-03 14:20:32",debit,-3.03565,Charlie,3,11,"Grocery store"
+310,"2020-12-04 16:38:55",credit,131.435,Bob,5,19,"Grocery store"
+311,"2020-12-05 18:57:17",debit,-88.8724,Bob,2,8,"Grocery store"
+312,"2020-12-06 21:15:40",debit,-111.155,Alice,3,11,"Grocery store"
+313,"2020-12-07 23:34:03",credit,102.582,Bob,5,18,"Gas station"
+314,"2020-12-09 01:52:25",debit,-124.958,Emily,3,9,Restaurant
+315,"2020-12-10 04:10:48",debit,-59.4376,Alice,4,14,"Grocery store"
+316,"2020-12-11 06:29:11",credit,80.0327,Charlie,4,13,Restaurant
+317,"2020-12-12 08:47:34",credit,125.749,David,2,8,"Gas station"
+318,"2020-12-13 11:05:56",debit,-95.6539,David,4,14,"Grocery store"
+319,"2020-12-14 13:24:19",debit,-128.008,Charlie,5,19,"Gas station"
+320,"2020-12-15 15:42:42",credit,92.3212,Emily,5,19,Restaurant
+321,"2020-12-16 18:01:04",debit,-111.379,David,3,9,
+322,"2020-12-17 20:19:27",debit,-165.115,Charlie,2,8,
+323,"2020-12-18 22:37:50",credit,92.8443,Bob,4,16,"Gas station"
+324,"2020-12-20 00:56:12",debit,-130.732,Alice,4,14,
+325,"2020-12-21 03:14:35",debit,-97.8957,Bob,4,15,
+326,"2020-12-22 05:32:58",debit,-139.457,Alice,4,15,"Gas station"
+327,"2020-12-23 07:51:21",credit,9.13185,Bob,4,13,"Gas station"
+328,"2020-12-24 10:09:43",credit,70.9471,Emily,5,20,"Gas station"
+329,"2020-12-25 12:28:06",credit,118.49,Emily,5,17,
+330,"2020-12-26 14:46:29",debit,-78.3043,Bob,3,12,Restaurant
+331,"2020-12-27 17:04:51",debit,-160.352,Bob,3,10,
+332,"2020-12-28 19:23:14",debit,-172.836,Emily,2,7,Restaurant
+333,"2020-12-29 21:41:37",credit,22.8657,Alice,2,7,"Grocery store"
+334,"2020-12-31 00:00:00",debit,-138.903,Bob,1,3,"Grocery store"
+335,"2021-01-01 02:18:22",debit,-150.293,Charlie,5,19,Restaurant
+336,"2021-01-02 04:36:45",credit,125.658,Bob,2,6,"Gas station"
+337,"2021-01-03 06:55:08",credit,138.706,Bob,2,6,"Gas station"
+338,"2021-01-04 09:13:30",credit,165.014,David,5,17,Restaurant
+339,"2021-01-05 11:31:53",debit,-145.678,Charlie,3,12,
+340,"2021-01-06 13:50:16",credit,122.841,Bob,3,9,Restaurant
+341,"2021-01-07 16:08:38",credit,157.619,David,2,8,
+342,"2021-01-08 18:27:01",debit,-137.075,Emily,1,1,"Gas station"
+343,"2021-01-09 20:45:24",debit,-208.103,Charlie,5,20,Restaurant
+344,"2021-01-10 23:03:47",credit,125.896,Charlie,3,12,"Grocery store"
+345,"2021-01-12 01:22:09",credit,189.488,Alice,2,7,Restaurant
+346,"2021-01-13 03:40:32",credit,118.752,Emily,5,17,
+347,"2021-01-14 05:58:55",debit,-96.2015,David,5,18,"Grocery store"
+348,"2021-01-15 08:17:17",debit,-66.0998,Charlie,4,14,"Gas station"
+349,"2021-01-16 10:35:40",debit,-130.027,Emily,1,3,
+350,"2021-01-17 12:54:03",credit,124.674,David,4,16,"Gas station"
+351,"2021-01-18 15:12:25",debit,-119.693,Charlie,3,9,
+352,"2021-01-19 17:30:48",debit,-54.6795,Charlie,5,17,
+353,"2021-01-20 19:49:11",credit,115.958,Alice,2,8,"Gas station"
+354,"2021-01-21 22:07:34",debit,-75.0428,Emily,3,10,"Gas station"
+355,"2021-01-23 00:25:56",credit,66.98,Alice,1,1,Restaurant
+356,"2021-01-24 02:44:19",debit,-103.873,Charlie,2,7,"Gas station"
+357,"2021-01-25 05:02:42",debit,-119.378,Bob,3,12,"Gas station"
+358,"2021-01-26 07:21:04",credit,148.818,Emily,5,20,
+359,"2021-01-27 09:39:27",debit,-57.9351,Emily,1,2,"Gas station"
+360,"2021-01-28 11:57:50",debit,-92.7032,Alice,5,18,Restaurant
+361,"2021-01-29 14:16:12",debit,-142.741,Charlie,1,4,Restaurant
+362,"2021-01-30 16:34:35",credit,85.723,Alice,4,16,"Gas station"
+363,"2021-01-31 18:52:58",credit,102.692,Emily,2,6,
+364,"2021-02-01 21:11:21",debit,-69.8209,Charlie,2,5,Restaurant
+365,"2021-02-02 23:29:43",credit,41.9812,Alice,5,19,
+366,"2021-02-04 01:48:06",debit,-59.3951,David,1,2,Restaurant
+367,"2021-02-05 04:06:29",debit,-40.2075,Alice,2,6,Restaurant
+368,"2021-02-06 06:24:51",debit,-128.126,David,1,4,
+369,"2021-02-07 08:43:14",debit,-88.1566,Emily,4,13,
+370,"2021-02-08 11:01:37",debit,-89.0163,Charlie,5,19,Restaurant
+371,"2021-02-09 13:20:00",debit,-18.8339,Charlie,5,18,
+372,"2021-02-10 15:38:22",debit,-68.2802,Alice,3,10,
+373,"2021-02-11 17:56:45",credit,117.044,Charlie,3,11,"Gas station"
+374,"2021-02-12 20:15:08",credit,241.684,Emily,3,12,"Gas station"
+375,"2021-02-13 22:33:30",credit,96.1865,Charlie,1,1,"Gas station"
+376,"2021-02-15 00:51:53",credit,50.0877,Alice,2,8,
+377,"2021-02-16 03:10:16",debit,-78.2549,Charlie,1,1,Restaurant
+378,"2021-02-17 05:28:38",debit,-58.5349,David,1,4,Restaurant
+379,"2021-02-18 07:47:01",credit,142.054,Emily,3,9,"Gas station"
+380,"2021-02-19 10:05:24",debit,-113.503,Alice,2,6,
+381,"2021-02-20 12:23:47",debit,-180.635,David,4,16,Restaurant
+382,"2021-02-21 14:42:09",credit,128.41,Emily,5,17,
+383,"2021-02-22 17:00:32",credit,230.392,David,5,18,"Gas station"
+384,"2021-02-23 19:18:55",debit,-94.6713,Bob,2,7,"Gas station"
+385,"2021-02-24 21:37:17",credit,200.891,Alice,3,9,Restaurant
+386,"2021-02-25 23:55:40",debit,-57.9871,Bob,2,8,Restaurant
+387,"2021-02-27 02:14:03",debit,-95.6918,Bob,2,8,
+388,"2021-02-28 04:32:25",credit,60.6865,David,1,4,Restaurant
+389,"2021-03-01 06:50:48",credit,129.424,Emily,1,2,"Gas station"
+390,"2021-03-02 09:09:11",credit,82.6701,Charlie,2,6,"Gas station"
+391,"2021-03-03 11:27:34",debit,-73.2842,Alice,4,16,"Grocery store"
+392,"2021-03-04 13:45:56",debit,-45.5493,Bob,5,17,"Grocery store"
+393,"2021-03-05 16:04:19",debit,-114.588,David,1,2,"Grocery store"
+394,"2021-03-06 18:22:42",debit,-112.69,Alice,5,17,"Gas station"
+395,"2021-03-07 20:41:04",debit,-70.9657,Alice,3,11,"Gas station"
+396,"2021-03-08 22:59:27",credit,89.3474,Charlie,2,5,"Grocery store"
+397,"2021-03-10 01:17:50",credit,15.6594,Charlie,4,15,
+398,"2021-03-11 03:36:12",credit,57.1464,David,3,10,Restaurant
+399,"2021-03-12 05:54:35",credit,59.9419,Bob,3,12,
+400,"2021-03-13 08:12:58",credit,169.311,Emily,3,11,
+401,"2021-03-14 10:31:21",debit,-74.1717,David,3,12,"Gas station"
+402,"2021-03-15 12:49:43",credit,90.4796,Alice,3,11,"Grocery store"
+403,"2021-03-16 15:08:06",debit,-172.318,Alice,1,4,"Gas station"
+404,"2021-03-17 17:26:29",credit,4.92102,Bob,4,13,Restaurant
+405,"2021-03-18 19:44:51",credit,41.5071,Charlie,3,10,"Grocery store"
+406,"2021-03-19 22:03:14",debit,-79.0603,Bob,4,15,"Grocery store"
+407,"2021-03-21 00:21:37",credit,47.2287,Charlie,4,16,Restaurant
+408,"2021-03-22 02:40:00",debit,-95.0723,Alice,2,7,
+409,"2021-03-23 04:58:22",credit,85.9609,Emily,1,2,Restaurant
+410,"2021-03-24 07:16:45",credit,136.993,Emily,3,10,"Grocery store"
+411,"2021-03-25 09:35:08",debit,-181.359,Bob,1,4,Restaurant
+412,"2021-03-26 11:53:30",credit,101.507,Emily,1,3,"Gas station"
+413,"2021-03-27 14:11:53",credit,92.7199,Alice,5,19,"Grocery store"
+414,"2021-03-28 16:30:16",credit,111.377,Bob,5,17,
+415,"2021-03-29 18:48:38",credit,152.443,Bob,4,13,"Gas station"
+416,"2021-03-30 21:07:01",credit,188.697,Alice,1,2,"Gas station"
+417,"2021-03-31 23:25:24",credit,155.844,Charlie,3,10,"Gas station"
+418,"2021-04-02 01:43:47",debit,-154.063,Charlie,2,6,Restaurant
+419,"2021-04-03 04:02:09",debit,-175.471,David,5,20,Restaurant
+420,"2021-04-04 06:20:32",credit,75.0653,Charlie,1,1,
+421,"2021-04-05 08:38:55",credit,54.3422,Alice,1,4,Restaurant
+422,"2021-04-06 10:57:17",credit,93.6528,David,2,7,"Grocery store"
+423,"2021-04-07 13:15:40",debit,-103.984,David,5,17,"Gas station"
+424,"2021-04-08 15:34:03",debit,-151.017,Alice,5,18,
+425,"2021-04-09 17:52:25",credit,60.4945,Charlie,5,20,"Gas station"
+426,"2021-04-10 20:10:48",debit,-42.2276,Bob,5,17,"Gas station"
+427,"2021-04-11 22:29:11",credit,81.6247,Bob,1,4,"Gas station"
+428,"2021-04-13 00:47:34",credit,163.196,Bob,1,3,Restaurant
+429,"2021-04-14 03:05:56",credit,141.352,David,1,2,Restaurant
+430,"2021-04-15 05:24:19",credit,71.3765,David,5,19,Restaurant
+431,"2021-04-16 07:42:42",debit,-160.584,Alice,4,15,Restaurant
+432,"2021-04-17 10:01:04",debit,-189.649,Charlie,3,12,"Grocery store"
+433,"2021-04-18 12:19:27",credit,168.956,Charlie,4,16,"Grocery store"
+434,"2021-04-19 14:37:50",credit,202.496,Emily,1,1,"Gas station"
+435,"2021-04-20 16:56:12",credit,149.601,Bob,5,18,"Gas station"
+436,"2021-04-21 19:14:35",debit,-53.4983,Emily,3,9,"Grocery store"
+437,"2021-04-22 21:32:58",credit,87.5303,Charlie,1,2,
+438,"2021-04-23 23:51:21",debit,-49.8553,Emily,5,18,Restaurant
+439,"2021-04-25 02:09:43",credit,28.6353,Charlie,2,7,
+440,"2021-04-26 04:28:06",debit,-97.696,Bob,5,19,"Grocery store"
+441,"2021-04-27 06:46:29",debit,-167.959,David,5,18,Restaurant
+442,"2021-04-28 09:04:51",debit,-101.049,Charlie,5,20,"Gas station"
+443,"2021-04-29 11:23:14",debit,-89.4763,Alice,2,6,"Grocery store"
+444,"2021-04-30 13:41:37",credit,179.863,Emily,2,6,Restaurant
+445,"2021-05-01 16:00:00",debit,-146.31,David,3,12,Restaurant
+446,"2021-05-02 18:18:22",debit,-93.1729,Emily,1,3,Restaurant
+447,"2021-05-03 20:36:45",debit,-158.408,Alice,5,20,"Gas station"
+448,"2021-05-04 22:55:08",credit,49.6878,Emily,2,8,Restaurant
+449,"2021-05-06 01:13:30",credit,69.162,David,3,11,Restaurant
+450,"2021-05-07 03:31:53",debit,-110.947,Bob,4,13,
+451,"2021-05-08 05:50:16",credit,135.892,Emily,3,12,"Gas station"
+452,"2021-05-09 08:08:38",debit,-100.667,Charlie,1,4,"Gas station"
+453,"2021-05-10 10:27:01",credit,167.403,Bob,4,15,
+454,"2021-05-11 12:45:24",debit,-133.109,David,1,3,"Grocery store"
+455,"2021-05-12 15:03:47",debit,-47.4677,Emily,3,9,"Gas station"
+456,"2021-05-13 17:22:09",credit,48.2565,David,5,19,"Grocery store"
+457,"2021-05-14 19:40:32",debit,-87.8379,Bob,3,11,"Grocery store"
+458,"2021-05-15 21:58:55",debit,-62.3317,Alice,4,16,"Gas station"
+459,"2021-05-17 00:17:17",credit,27.2835,Bob,4,16,"Grocery store"
+460,"2021-05-18 02:35:40",credit,48.854,Charlie,4,15,"Gas station"
+461,"2021-05-19 04:54:03",credit,76.1506,David,2,7,"Grocery store"
+462,"2021-05-20 07:12:25",credit,109.955,Bob,1,3,"Grocery store"
+463,"2021-05-21 09:30:48",debit,-46.9458,David,1,4,Restaurant
+464,"2021-05-22 11:49:11",debit,-140.892,Bob,3,10,Restaurant
+465,"2021-05-23 14:07:34",debit,-177.54,Charlie,3,11,
+466,"2021-05-24 16:25:56",debit,-161.288,Alice,2,7,"Grocery store"
+467,"2021-05-25 18:44:19",credit,176.127,David,4,16,"Gas station"
+468,"2021-05-26 21:02:42",debit,-106.874,Charlie,1,4,
+469,"2021-05-27 23:21:04",credit,122.424,Alice,1,2,"Grocery store"
+470,"2021-05-29 01:39:27",debit,-147.608,Emily,4,15,
+471,"2021-05-30 03:57:50",credit,44.2465,Alice,1,4,"Gas station"
+472,"2021-05-31 06:16:12",credit,132.571,David,5,19,"Grocery store"
+473,"2021-06-01 08:34:35",debit,-90.3949,Emily,3,12,Restaurant
+474,"2021-06-02 10:52:58",credit,116.881,David,2,8,"Grocery store"
+475,"2021-06-03 13:11:21",debit,-102.377,Alice,2,8,"Gas station"
+476,"2021-06-04 15:29:43",credit,173.579,Bob,4,14,"Grocery store"
+477,"2021-06-05 17:48:06",debit,-123.847,Charlie,5,17,"Grocery store"
+478,"2021-06-06 20:06:29",debit,-200.51,Emily,3,12,Restaurant
+479,"2021-06-07 22:24:51",debit,-106.791,David,4,13,Restaurant
+480,"2021-06-09 00:43:14",credit,58.5934,Charlie,4,15,"Grocery store"
+481,"2021-06-10 03:01:37",credit,51.2327,Emily,4,15,Restaurant
+482,"2021-06-11 05:20:00",debit,-162.485,Emily,4,13,"Grocery store"
+483,"2021-06-12 07:38:22",debit,-148.878,David,1,1,Restaurant
+484,"2021-06-13 09:56:45",debit,-72.209,David,1,4,"Gas station"
+485,"2021-06-14 12:15:08",credit,91.6323,Alice,5,18,"Grocery store"
+486,"2021-06-15 14:33:30",debit,-190.532,Bob,3,11,Restaurant
+487,"2021-06-16 16:51:53",debit,-137.312,David,1,3,Restaurant
+488,"2021-06-17 19:10:16",debit,-173.882,Charlie,2,6,"Gas station"
+489,"2021-06-18 21:28:38",credit,28.1675,Charlie,1,4,
+490,"2021-06-19 23:47:01",debit,-147.744,Alice,5,18,"Grocery store"
+491,"2021-06-21 02:05:24",credit,205.843,Emily,2,6,"Gas station"
+492,"2021-06-22 04:23:47",debit,-118.43,Emily,2,5,"Gas station"
+493,"2021-06-23 06:42:09",debit,-121.583,David,4,16,
+494,"2021-06-24 09:00:32",debit,-144.107,Charlie,1,2,
+495,"2021-06-25 11:18:55",credit,98.6893,Charlie,3,11,Restaurant
+496,"2021-06-26 13:37:17",credit,2.90599,Emily,2,6,"Gas station"
+497,"2021-06-27 15:55:40",credit,44.6587,David,5,20,
+498,"2021-06-28 18:14:03",credit,66.6082,Charlie,2,7,
+499,"2021-06-29 20:32:25",credit,110.536,Alice,1,1,
+500,"2021-06-30 22:50:48",debit,-73.4903,Alice,2,5,
+501,"2021-07-02 01:09:11",credit,85.2405,Alice,3,9,Restaurant
+502,"2021-07-03 03:27:34",credit,91.3639,Emily,5,17,
+503,"2021-07-04 05:45:56",credit,131.923,Charlie,3,10,
+504,"2021-07-05 08:04:19",credit,190.381,David,3,10,Restaurant
+505,"2021-07-06 10:22:42",debit,-150.445,Bob,3,12,
+506,"2021-07-07 12:41:04",credit,133.641,Bob,1,1,"Gas station"
+507,"2021-07-08 14:59:27",debit,-138.533,Bob,2,6,Restaurant
+508,"2021-07-09 17:17:50",credit,176.65,David,1,3,"Grocery store"
+509,"2021-07-10 19:36:12",credit,128.816,Charlie,4,16,"Grocery store"
+510,"2021-07-11 21:54:35",debit,-59.011,Emily,2,5,"Grocery store"
+511,"2021-07-13 00:12:58",debit,-34.8974,David,4,14,"Grocery store"
+512,"2021-07-14 02:31:21",credit,179.974,Charlie,4,13,
+513,"2021-07-15 04:49:43",credit,133.844,Emily,3,11,
+514,"2021-07-16 07:08:06",debit,-166.203,Emily,1,2,"Gas station"
+515,"2021-07-17 09:26:29",credit,115.541,Charlie,2,7,"Grocery store"
+516,"2021-07-18 11:44:51",debit,-125.224,Bob,3,12,"Grocery store"
+517,"2021-07-19 14:03:14",credit,163.017,Alice,5,17,
+518,"2021-07-20 16:21:37",credit,37.0766,Emily,5,20,Restaurant
+519,"2021-07-21 18:40:00",credit,159.053,David,2,8,"Grocery store"
+520,"2021-07-22 20:58:22",debit,-161.648,David,2,5,"Grocery store"
+521,"2021-07-23 23:16:45",credit,99.6536,Alice,3,12,"Grocery store"
+522,"2021-07-25 01:35:08",credit,118.372,Charlie,3,12,
+523,"2021-07-26 03:53:30",debit,-132.609,Alice,2,5,"Grocery store"
+524,"2021-07-27 06:11:53",credit,112.357,David,2,5,Restaurant
+525,"2021-07-28 08:30:16",debit,-177.163,Alice,2,6,"Grocery store"
+526,"2021-07-29 10:48:38",credit,166.339,Bob,2,6,
+527,"2021-07-30 13:07:01",credit,130.566,David,5,17,Restaurant
+528,"2021-07-31 15:25:24",debit,-65.8549,Charlie,2,6,"Grocery store"
+529,"2021-08-01 17:43:47",debit,-53.9794,Bob,5,20,Restaurant
+530,"2021-08-02 20:02:09",debit,-146.949,Alice,1,4,Restaurant
+531,"2021-08-03 22:20:32",credit,114.072,Charlie,5,20,"Gas station"
+532,"2021-08-05 00:38:55",credit,158.108,Alice,3,11,Restaurant
+533,"2021-08-06 02:57:17",credit,98.245,David,2,7,"Gas station"
+534,"2021-08-07 05:15:40",credit,58.7192,Bob,1,2,Restaurant
+535,"2021-08-08 07:34:03",debit,-84.542,David,2,8,"Gas station"
+536,"2021-08-09 09:52:25",credit,87.3922,Emily,5,18,
+537,"2021-08-10 12:10:48",credit,139.042,Alice,2,5,"Gas station"
+538,"2021-08-11 14:29:11",debit,-117.203,Bob,2,7,
+539,"2021-08-12 16:47:34",debit,-163.762,Alice,2,6,
+540,"2021-08-13 19:05:56",credit,165.188,David,2,7,"Grocery store"
+541,"2021-08-14 21:24:19",debit,-190.85,Charlie,2,8,
+542,"2021-08-15 23:42:42",debit,-123.279,Alice,5,17,Restaurant
+543,"2021-08-17 02:01:04",credit,50.6898,Emily,5,17,
+544,"2021-08-18 04:19:27",debit,-14.0121,Bob,1,3,
+545,"2021-08-19 06:37:50",debit,-11.5039,Charlie,2,7,
+546,"2021-08-20 08:56:12",credit,78.0447,Bob,5,18,Restaurant
+547,"2021-08-21 11:14:35",credit,19.8621,Alice,5,20,"Grocery store"
+548,"2021-08-22 13:32:58",debit,-106.225,Bob,5,18,"Grocery store"
+549,"2021-08-23 15:51:21",credit,174.7,Emily,4,14,"Gas station"
+550,"2021-08-24 18:09:43",debit,-88.1471,Alice,4,15,"Gas station"
+551,"2021-08-25 20:28:06",debit,-25.8993,Emily,2,7,Restaurant
+552,"2021-08-26 22:46:29",debit,-121.494,David,5,20,"Gas station"
+553,"2021-08-28 01:04:51",debit,-60.8907,Emily,5,20,"Grocery store"
+554,"2021-08-29 03:23:14",credit,119.483,Charlie,1,3,"Gas station"
+555,"2021-08-30 05:41:37",credit,75.9847,Bob,2,5,
+556,"2021-08-31 08:00:00",credit,47.4048,Bob,1,1,"Grocery store"
+557,"2021-09-01 10:18:22",credit,50.6132,Alice,3,10,Restaurant
+558,"2021-09-02 12:36:45",debit,-90.897,Bob,4,14,Restaurant
+559,"2021-09-03 14:55:08",debit,-81.0267,Emily,4,15,"Grocery store"
+560,"2021-09-04 17:13:30",credit,113.662,Alice,2,5,"Grocery store"
+561,"2021-09-05 19:31:53",debit,-93.0722,David,1,4,"Gas station"
+562,"2021-09-06 21:50:16",debit,-144.095,Charlie,1,4,"Grocery store"
+563,"2021-09-08 00:08:38",debit,-74.2552,Bob,3,12,
+564,"2021-09-09 02:27:01",credit,94.1102,Emily,4,13,"Gas station"
+565,"2021-09-10 04:45:24",credit,94.5547,David,1,3,"Gas station"
+566,"2021-09-11 07:03:47",debit,-42.8675,David,4,14,Restaurant
+567,"2021-09-12 09:22:09",credit,32.544,Alice,5,20,"Grocery store"
+568,"2021-09-13 11:40:32",debit,-115.844,David,1,2,
+569,"2021-09-14 13:58:55",debit,-93.5577,Bob,1,2,"Grocery store"
+570,"2021-09-15 16:17:17",credit,32.3678,David,3,12,"Gas station"
+571,"2021-09-16 18:35:40",credit,108.073,Alice,2,6,
+572,"2021-09-17 20:54:03",credit,136.953,Alice,5,18,
+573,"2021-09-18 23:12:25",debit,-108.269,David,2,6,
+574,"2021-09-20 01:30:48",credit,25.246,David,5,20,Restaurant
+575,"2021-09-21 03:49:11",debit,-14.3181,Emily,2,6,"Gas station"
+576,"2021-09-22 06:07:34",credit,202.53,Charlie,1,4,"Gas station"
+577,"2021-09-23 08:25:56",credit,138.608,David,5,18,"Grocery store"
+578,"2021-09-24 10:44:19",credit,213.562,Emily,1,2,
+579,"2021-09-25 13:02:42",debit,-51.3082,Alice,3,12,"Gas station"
+580,"2021-09-26 15:21:04",debit,-123.708,Alice,3,12,"Grocery store"
+581,"2021-09-27 17:39:27",credit,68.599,Alice,3,9,"Grocery store"
+582,"2021-09-28 19:57:50",credit,129.062,Alice,5,19,"Gas station"
+583,"2021-09-29 22:16:12",debit,-112.099,David,5,19,Restaurant
+584,"2021-10-01 00:34:35",credit,92.9538,Alice,2,5,
+585,"2021-10-02 02:52:58",debit,-67.3373,Alice,1,1,"Grocery store"
+586,"2021-10-03 05:11:21",credit,186.793,Emily,4,14,"Grocery store"
+587,"2021-10-04 07:29:43",debit,-124.661,Charlie,2,7,"Grocery store"
+588,"2021-10-05 09:48:06",debit,-134.988,Charlie,5,19,
+589,"2021-10-06 12:06:29",credit,75.4893,David,1,4,Restaurant
+590,"2021-10-07 14:24:51",debit,-114.814,Emily,4,13,Restaurant
+591,"2021-10-08 16:43:14",credit,128.739,David,4,13,
+592,"2021-10-09 19:01:37",credit,74.742,Alice,5,19,"Gas station"
+593,"2021-10-10 21:20:00",credit,135.127,David,2,5,
+594,"2021-10-11 23:38:22",credit,72.2708,Bob,3,10,"Gas station"
+595,"2021-10-13 01:56:45",credit,136.417,Bob,3,9,"Grocery store"
+596,"2021-10-14 04:15:08",credit,37.8071,Alice,1,3,
+597,"2021-10-15 06:33:30",debit,-44.6089,Emily,3,10,"Gas station"
+598,"2021-10-16 08:51:53",debit,-78.6651,Bob,2,7,Restaurant
+599,"2021-10-17 11:10:16",credit,37.7826,Emily,5,19,"Grocery store"
+600,"2021-10-18 13:28:38",debit,-42.5826,Alice,4,14,Restaurant
+601,"2021-10-19 15:47:01",debit,-38.2662,David,5,17,"Gas station"
+602,"2021-10-20 18:05:24",debit,-70.5275,David,1,2,"Grocery store"
+603,"2021-10-21 20:23:47",credit,34.3376,Emily,3,10,"Grocery store"
+604,"2021-10-22 22:42:09",debit,-75.2643,Alice,4,16,"Gas station"
+605,"2021-10-24 01:00:32",debit,-133.499,Bob,3,10,
+606,"2021-10-25 03:18:55",credit,93.0953,David,5,17,Restaurant
+607,"2021-10-26 05:37:17",credit,102.91,David,5,17,
+608,"2021-10-27 07:55:40",debit,-60.9751,Bob,4,13,"Gas station"
+609,"2021-10-28 10:14:03",credit,116.877,Alice,1,4,
+610,"2021-10-29 12:32:25",debit,-91.654,Bob,2,5,"Gas station"
+611,"2021-10-30 14:50:48",debit,-105.288,Bob,4,13,Restaurant
+612,"2021-10-31 17:09:11",debit,-102.224,David,3,11,Restaurant
+613,"2021-11-01 19:27:34",credit,81.5527,Alice,2,8,
+614,"2021-11-02 21:45:56",credit,96.3024,Bob,2,5,
+615,"2021-11-04 00:04:19",debit,-60.0165,Emily,3,11,"Grocery store"
+616,"2021-11-05 02:22:42",debit,-106.234,Bob,4,15,"Gas station"
+617,"2021-11-06 04:41:04",debit,-35.5136,Bob,1,1,"Grocery store"
+618,"2021-11-07 06:59:27",debit,-164.617,David,1,1,Restaurant
+619,"2021-11-08 09:17:50",credit,35.3926,David,1,2,"Gas station"
+620,"2021-11-09 11:36:12",credit,166.128,Bob,3,9,
+621,"2021-11-10 13:54:35",debit,-179.692,David,1,4,"Grocery store"
+622,"2021-11-11 16:12:58",credit,29.886,David,3,11,
+623,"2021-11-12 18:31:21",debit,-8.42172,Emily,2,7,
+624,"2021-11-13 20:49:43",debit,-71.8815,Alice,3,11,
+625,"2021-11-14 23:08:06",debit,-133.688,David,4,15,Restaurant
+626,"2021-11-16 01:26:29",credit,161.192,David,3,10,
+627,"2021-11-17 03:44:51",credit,47.3685,Charlie,5,18,"Gas station"
+628,"2021-11-18 06:03:14",debit,-149.252,Bob,2,6,"Gas station"
+629,"2021-11-19 08:21:37",debit,-54.1002,Alice,1,4,
+630,"2021-11-20 10:40:00",credit,49.1772,David,4,13,"Gas station"
+631,"2021-11-21 12:58:22",credit,117.636,Bob,2,8,Restaurant
+632,"2021-11-22 15:16:45",debit,-19.554,David,5,18,
+633,"2021-11-23 17:35:08",debit,-200.582,Alice,3,11,
+634,"2021-11-24 19:53:30",debit,-51.8144,Bob,3,9,
+635,"2021-11-25 22:11:53",debit,-91.2958,Charlie,5,18,Restaurant
+636,"2021-11-27 00:30:16",debit,-85.0327,David,4,13,Restaurant
+637,"2021-11-28 02:48:38",debit,-122.46,Alice,5,19,
+638,"2021-11-29 05:07:01",debit,-80.7016,Alice,1,3,"Gas station"
+639,"2021-11-30 07:25:24",credit,117.861,David,3,11,"Gas station"
+640,"2021-12-01 09:43:47",debit,-130.499,Bob,3,12,"Gas station"
+641,"2021-12-02 12:02:09",debit,-141.245,Emily,4,15,Restaurant
+642,"2021-12-03 14:20:32",credit,105.079,David,1,3,"Gas station"
+643,"2021-12-04 16:38:55",credit,120.904,Alice,5,19,"Grocery store"
+644,"2021-12-05 18:57:17",credit,61.285,Emily,2,7,"Grocery store"
+645,"2021-12-06 21:15:40",debit,-6.5067,Bob,5,17,Restaurant
+646,"2021-12-07 23:34:03",debit,-140.637,Bob,5,17,"Grocery store"
+647,"2021-12-09 01:52:25",debit,-132.388,David,5,20,
+648,"2021-12-10 04:10:48",debit,-124.934,David,1,4,"Grocery store"
+649,"2021-12-11 06:29:11",debit,-156.857,Bob,4,14,"Gas station"
+650,"2021-12-12 08:47:34",credit,99.158,Bob,4,13,Restaurant
+651,"2021-12-13 11:05:56",credit,129.412,David,3,9,"Gas station"
+652,"2021-12-14 13:24:19",debit,-106.229,Bob,2,7,Restaurant
+653,"2021-12-15 15:42:42",debit,-95.2799,Alice,3,11,Restaurant
+654,"2021-12-16 18:01:04",debit,-147.669,Emily,2,5,
+655,"2021-12-17 20:19:27",debit,-141.887,Bob,2,5,Restaurant
+656,"2021-12-18 22:37:50",credit,228.2,Charlie,1,3,Restaurant
+657,"2021-12-20 00:56:12",debit,-34.6046,Charlie,1,3,"Grocery store"
+658,"2021-12-21 03:14:35",debit,-139.093,Alice,3,11,"Gas station"
+659,"2021-12-22 05:32:58",debit,-67.7944,Emily,5,17,
+660,"2021-12-23 07:51:21",credit,53.7721,Emily,1,3,"Grocery store"
+661,"2021-12-24 10:09:43",credit,97.0783,Bob,1,3,
+662,"2021-12-25 12:28:06",debit,-38.032,David,5,17,Restaurant
+663,"2021-12-26 14:46:29",credit,46.8387,Charlie,3,11,"Gas station"
+664,"2021-12-27 17:04:51",credit,189.416,Charlie,5,18,Restaurant
+665,"2021-12-28 19:23:14",credit,168.825,David,1,3,Restaurant
+666,"2021-12-29 21:41:37",credit,189.335,Charlie,1,2,"Gas station"
+667,"2021-12-31 00:00:00",debit,-103.978,Alice,2,7,
+668,"2022-01-01 02:18:22",debit,-159.651,Charlie,5,18,"Gas station"
+669,"2022-01-02 04:36:45",credit,103.925,David,5,20,"Grocery store"
+670,"2022-01-03 06:55:08",debit,-168.524,David,2,5,
+671,"2022-01-04 09:13:30",debit,-64.9593,Charlie,3,10,"Grocery store"
+672,"2022-01-05 11:31:53",credit,56.3808,Emily,4,14,"Grocery store"
+673,"2022-01-06 13:50:16",credit,124.384,Emily,3,10,
+674,"2022-01-07 16:08:38",credit,129.227,Emily,1,2,"Grocery store"
+675,"2022-01-08 18:27:01",credit,12.3064,Charlie,1,1,
+676,"2022-01-09 20:45:24",credit,132.283,David,2,6,Restaurant
+677,"2022-01-10 23:03:47",debit,-177.589,Emily,5,20,"Grocery store"
+678,"2022-01-12 01:22:09",debit,-38.7618,Alice,4,16,Restaurant
+679,"2022-01-13 03:40:32",debit,-38.9365,David,1,2,
+680,"2022-01-14 05:58:55",debit,-130.167,Alice,1,4,"Gas station"
+681,"2022-01-15 08:17:17",credit,107.99,Emily,4,14,
+682,"2022-01-16 10:35:40",debit,-148.689,Charlie,5,20,"Grocery store"
+683,"2022-01-17 12:54:03",credit,52.1457,Charlie,4,14,
+684,"2022-01-18 15:12:25",debit,-30.2959,David,5,20,"Gas station"
+685,"2022-01-19 17:30:48",debit,-51.4724,Charlie,4,15,
+686,"2022-01-20 19:49:11",debit,-52.5814,David,3,9,Restaurant
+687,"2022-01-21 22:07:34",debit,-75.1979,Charlie,5,17,"Gas station"
+688,"2022-01-23 00:25:56",credit,120.761,David,4,15,
+689,"2022-01-24 02:44:19",debit,-98.4118,David,5,19,Restaurant
+690,"2022-01-25 05:02:42",credit,70.5004,Alice,3,10,
+691,"2022-01-26 07:21:04",debit,-134.016,Bob,2,5,"Gas station"
+692,"2022-01-27 09:39:27",credit,81.4215,Bob,3,11,"Grocery store"
+693,"2022-01-28 11:57:50",credit,32.6715,Emily,2,5,"Grocery store"
+694,"2022-01-29 14:16:12",debit,-50.1695,Bob,1,1,"Gas station"
+695,"2022-01-30 16:34:35",debit,-141.793,David,1,3,
+696,"2022-01-31 18:52:58",debit,-39.8327,Alice,5,19,"Grocery store"
+697,"2022-02-01 21:11:21",credit,123.32,Alice,3,9,"Grocery store"
+698,"2022-02-02 23:29:43",debit,-45.48,Charlie,1,2,"Gas station"
+699,"2022-02-04 01:48:06",debit,-48.9019,Bob,2,6,"Grocery store"
+700,"2022-02-05 04:06:29",credit,128.581,David,3,10,"Gas station"
+701,"2022-02-06 06:24:51",debit,-152.624,Bob,5,17,
+702,"2022-02-07 08:43:14",debit,-189.237,Alice,5,20,"Gas station"
+703,"2022-02-08 11:01:37",debit,-168.226,Alice,1,2,Restaurant
+704,"2022-02-09 13:20:00",credit,5.79922,David,4,13,
+705,"2022-02-10 15:38:22",credit,86.3116,Bob,4,14,"Gas station"
+706,"2022-02-11 17:56:45",debit,-88.2434,Alice,3,12,"Grocery store"
+707,"2022-02-12 20:15:08",debit,-108.59,David,5,19,Restaurant
+708,"2022-02-13 22:33:30",debit,-54.6704,Alice,4,14,
+709,"2022-02-15 00:51:53",credit,143.69,Bob,1,2,
+710,"2022-02-16 03:10:16",debit,-76.7762,Charlie,2,8,Restaurant
+711,"2022-02-17 05:28:38",credit,95.0196,Charlie,2,7,
+712,"2022-02-18 07:47:01",credit,54.5183,Alice,5,19,"Gas station"
+713,"2022-02-19 10:05:24",debit,-185.487,Alice,4,13,"Grocery store"
+714,"2022-02-20 12:23:47",debit,-142.673,Emily,1,2,"Gas station"
+715,"2022-02-21 14:42:09",debit,-25.0727,Emily,2,5,"Grocery store"
+716,"2022-02-22 17:00:32",debit,-178.958,Charlie,5,18,
+717,"2022-02-23 19:18:55",credit,168.136,Alice,5,17,
+718,"2022-02-24 21:37:17",credit,164.313,Charlie,3,12,"Grocery store"
+719,"2022-02-25 23:55:40",credit,97.2395,David,2,8,
+720,"2022-02-27 02:14:03",debit,-107.67,Charlie,4,13,Restaurant
+721,"2022-02-28 04:32:25",credit,52.8529,David,1,3,Restaurant
+722,"2022-03-01 06:50:48",debit,-105.157,David,1,3,
+723,"2022-03-02 09:09:11",credit,144.957,David,3,10,"Gas station"
+724,"2022-03-03 11:27:34",debit,-108.193,Charlie,5,19,"Gas station"
+725,"2022-03-04 13:45:56",debit,-101.128,Emily,1,3,"Gas station"
+726,"2022-03-05 16:04:19",debit,-149.299,Emily,5,18,"Gas station"
+727,"2022-03-06 18:22:42",debit,-162.09,Alice,3,9,Restaurant
+728,"2022-03-07 20:41:04",debit,-112.328,Emily,4,13,Restaurant
+729,"2022-03-08 22:59:27",credit,98.4843,David,3,9,Restaurant
+730,"2022-03-10 01:17:50",debit,-59.9006,David,3,9,"Gas station"
+731,"2022-03-11 03:36:12",debit,-69.6704,David,2,8,Restaurant
+732,"2022-03-12 05:54:35",credit,157.6,Emily,2,8,Restaurant
+733,"2022-03-13 08:12:58",credit,137.349,David,2,5,"Grocery store"
+734,"2022-03-14 10:31:21",credit,39.8031,David,2,8,
+735,"2022-03-15 12:49:43",credit,149.372,Bob,2,6,"Gas station"
+736,"2022-03-16 15:08:06",credit,4.65837,Bob,5,19,"Grocery store"
+737,"2022-03-17 17:26:29",debit,-121.567,Emily,5,17,"Gas station"
+738,"2022-03-18 19:44:51",debit,-91.9519,David,4,16,"Gas station"
+739,"2022-03-19 22:03:14",debit,-40.4586,Charlie,3,11,"Grocery store"
+740,"2022-03-21 00:21:37",debit,-90.7351,Emily,2,7,"Gas station"
+741,"2022-03-22 02:40:00",debit,-63.7973,Alice,5,18,Restaurant
+742,"2022-03-23 04:58:22",debit,-51.5885,Bob,2,6,"Gas station"
+743,"2022-03-24 07:16:45",credit,153.128,David,3,12,Restaurant
+744,"2022-03-25 09:35:08",debit,-102.16,Alice,3,10,"Gas station"
+745,"2022-03-26 11:53:30",debit,-89.2549,David,3,12,"Gas station"
+746,"2022-03-27 14:11:53",debit,-105.297,Emily,1,3,"Grocery store"
+747,"2022-03-28 16:30:16",debit,-119.385,Alice,4,13,"Grocery store"
+748,"2022-03-29 18:48:38",credit,99.9841,Bob,2,6,
+749,"2022-03-30 21:07:01",credit,117.19,Alice,1,2,"Gas station"
+750,"2022-03-31 23:25:24",debit,-51.7229,David,3,11,
+751,"2022-04-02 01:43:47",debit,-101.704,Charlie,3,12,Restaurant
+752,"2022-04-03 04:02:09",credit,81.4121,Charlie,1,1,
+753,"2022-04-04 06:20:32",debit,-58.5386,Alice,1,2,"Gas station"
+754,"2022-04-05 08:38:55",credit,146.475,Emily,1,2,
+755,"2022-04-06 10:57:17",credit,109.848,Alice,5,17,
+756,"2022-04-07 13:15:40",credit,86.2248,Charlie,2,8,Restaurant
+757,"2022-04-08 15:34:03",debit,-103.112,Charlie,5,19,
+758,"2022-04-09 17:52:25",debit,-112.496,Bob,4,13,Restaurant
+759,"2022-04-10 20:10:48",debit,-23.7796,Bob,2,5,Restaurant
+760,"2022-04-11 22:29:11",debit,-95.4811,Charlie,1,1,
+761,"2022-04-13 00:47:34",credit,192.315,Bob,3,10,Restaurant
+762,"2022-04-14 03:05:56",credit,152.082,Bob,5,18,"Grocery store"
+763,"2022-04-15 05:24:19",credit,113.14,Charlie,1,3,
+764,"2022-04-16 07:42:42",credit,81.9959,Alice,1,2,Restaurant
+765,"2022-04-17 10:01:04",credit,169.947,Charlie,4,16,"Grocery store"
+766,"2022-04-18 12:19:27",debit,-96.8896,Emily,5,17,
+767,"2022-04-19 14:37:50",credit,62.0892,Charlie,5,18,"Grocery store"
+768,"2022-04-20 16:56:12",debit,-95.7127,David,3,10,"Gas station"
+769,"2022-04-21 19:14:35",credit,110.467,Charlie,4,14,"Gas station"
+770,"2022-04-22 21:32:58",debit,-92.5264,Bob,2,8,
+771,"2022-04-23 23:51:21",debit,-160.327,Emily,5,20,"Grocery store"
+772,"2022-04-25 02:09:43",credit,106.03,Bob,1,4,
+773,"2022-04-26 04:28:06",debit,-146.863,Emily,3,11,
+774,"2022-04-27 06:46:29",debit,-33.3924,David,3,10,"Gas station"
+775,"2022-04-28 09:04:51",credit,49.9354,Charlie,1,2,"Gas station"
+776,"2022-04-29 11:23:14",credit,103.3,David,2,8,"Grocery store"
+777,"2022-04-30 13:41:37",debit,-87.9641,Alice,5,19,"Gas station"
+778,"2022-05-01 16:00:00",credit,120.015,Charlie,4,13,Restaurant
+779,"2022-05-02 18:18:22",debit,-86.4624,David,3,10,"Grocery store"
+780,"2022-05-03 20:36:45",debit,-139.156,Charlie,1,4,"Grocery store"
+781,"2022-05-04 22:55:08",debit,-42.4161,David,5,20,"Grocery store"
+782,"2022-05-06 01:13:30",debit,-163.589,Alice,5,17,Restaurant
+783,"2022-05-07 03:31:53",debit,-7.63537,Alice,3,12,"Gas station"
+784,"2022-05-08 05:50:16",debit,-113.062,Alice,4,14,"Gas station"
+785,"2022-05-09 08:08:38",debit,-140.997,Emily,4,16,
+786,"2022-05-10 10:27:01",debit,-84.3612,Bob,1,4,"Grocery store"
+787,"2022-05-11 12:45:24",debit,-114.054,Alice,3,9,"Gas station"
+788,"2022-05-12 15:03:47",debit,-78.5587,Alice,2,5,Restaurant
+789,"2022-05-13 17:22:09",debit,-90.4241,David,3,11,"Gas station"
+790,"2022-05-14 19:40:32",debit,-65.0714,Bob,2,8,
+791,"2022-05-15 21:58:55",credit,114.31,Bob,2,8,"Gas station"
+792,"2022-05-17 00:17:17",debit,-128.819,Bob,1,2,"Grocery store"
+793,"2022-05-18 02:35:40",credit,110.543,Emily,2,8,"Gas station"
+794,"2022-05-19 04:54:03",debit,-1.33979,Charlie,2,8,"Gas station"
+795,"2022-05-20 07:12:25",debit,-31.44,David,3,12,"Gas station"
+796,"2022-05-21 09:30:48",debit,-146.998,Alice,5,17,
+797,"2022-05-22 11:49:11",credit,124.522,Alice,2,8,"Grocery store"
+798,"2022-05-23 14:07:34",credit,128.487,Emily,1,4,"Grocery store"
+799,"2022-05-24 16:25:56",debit,-81.9298,Bob,5,18,Restaurant
+800,"2022-05-25 18:44:19",credit,190.43,Alice,5,18,"Gas station"
+801,"2022-05-26 21:02:42",credit,116.419,Charlie,1,1,Restaurant
+802,"2022-05-27 23:21:04",credit,75.3762,Bob,5,17,"Grocery store"
+803,"2022-05-29 01:39:27",credit,65.4799,Charlie,5,18,"Grocery store"
+804,"2022-05-30 03:57:50",debit,-114.857,Emily,4,13,Restaurant
+805,"2022-05-31 06:16:12",credit,151.886,Bob,5,17,Restaurant
+806,"2022-06-01 08:34:35",debit,-101.33,David,4,13,Restaurant
+807,"2022-06-02 10:52:58",credit,122.412,Alice,2,8,"Gas station"
+808,"2022-06-03 13:11:21",debit,-151.246,David,2,7,"Grocery store"
+809,"2022-06-04 15:29:43",credit,76.5222,Emily,4,14,
+810,"2022-06-05 17:48:06",credit,83.8314,David,5,18,
+811,"2022-06-06 20:06:29",credit,95.6679,Emily,5,17,Restaurant
+812,"2022-06-07 22:24:51",credit,56.8786,David,5,20,"Gas station"
+813,"2022-06-09 00:43:14",debit,-157.799,Charlie,5,17,"Grocery store"
+814,"2022-06-10 03:01:37",credit,70.8178,Alice,2,7,"Gas station"
+815,"2022-06-11 05:20:00",debit,-29.177,Charlie,1,3,"Grocery store"
+816,"2022-06-12 07:38:22",credit,139.96,Alice,3,10,
+817,"2022-06-13 09:56:45",debit,-3.19281,Emily,5,19,"Grocery store"
+818,"2022-06-14 12:15:08",debit,-77.1163,Emily,2,8,"Gas station"
+819,"2022-06-15 14:33:30",debit,-115.79,Bob,2,7,"Grocery store"
+820,"2022-06-16 16:51:53",credit,99.302,David,4,14,"Gas station"
+821,"2022-06-17 19:10:16",credit,81.1966,Emily,3,12,
+822,"2022-06-18 21:28:38",credit,64.2322,Alice,5,20,
+823,"2022-06-19 23:47:01",debit,-190.138,David,2,7,"Gas station"
+824,"2022-06-21 02:05:24",credit,23.0237,Emily,1,4,
+825,"2022-06-22 04:23:47",credit,157.219,Charlie,3,9,"Gas station"
+826,"2022-06-23 06:42:09",credit,106.88,Alice,4,14,Restaurant
+827,"2022-06-24 09:00:32",debit,-64.4867,Alice,2,8,Restaurant
+828,"2022-06-25 11:18:55",debit,-76.0369,Alice,5,19,"Grocery store"
+829,"2022-06-26 13:37:17",credit,49.9514,David,3,11,Restaurant
+830,"2022-06-27 15:55:40",debit,-122.399,Alice,1,4,"Grocery store"
+831,"2022-06-28 18:14:03",credit,98.0678,Bob,1,1,Restaurant
+832,"2022-06-29 20:32:25",debit,-76.6794,David,1,3,"Gas station"
+833,"2022-06-30 22:50:48",debit,-133.417,Emily,1,3,Restaurant
+834,"2022-07-02 01:09:11",debit,-212.158,David,2,8,
+835,"2022-07-03 03:27:34",credit,90.149,David,1,1,Restaurant
+836,"2022-07-04 05:45:56",debit,-66.6132,Emily,3,12,"Gas station"
+837,"2022-07-05 08:04:19",debit,-70.4658,Bob,2,5,Restaurant
+838,"2022-07-06 10:22:42",debit,-184.422,David,5,17,"Gas station"
+839,"2022-07-07 12:41:04",debit,-145.77,David,2,7,"Gas station"
+840,"2022-07-08 14:59:27",credit,137.528,Emily,3,12,Restaurant
+841,"2022-07-09 17:17:50",debit,-54.2633,Bob,2,8,"Grocery store"
+842,"2022-07-10 19:36:12",debit,-69.8031,Charlie,1,2,"Gas station"
+843,"2022-07-11 21:54:35",debit,-51.0553,Bob,1,4,"Gas station"
+844,"2022-07-13 00:12:58",debit,-127.983,Charlie,3,12,
+845,"2022-07-14 02:31:21",debit,-102.756,Emily,3,9,"Gas station"
+846,"2022-07-15 04:49:43",credit,153.187,Emily,1,4,"Gas station"
+847,"2022-07-16 07:08:06",debit,-4.45104,David,1,3,Restaurant
+848,"2022-07-17 09:26:29",debit,-155.091,David,4,15,"Grocery store"
+849,"2022-07-18 11:44:51",credit,86.3314,David,5,20,
+850,"2022-07-19 14:03:14",debit,-88.447,David,5,19,"Gas station"
+851,"2022-07-20 16:21:37",debit,-61.0733,Bob,3,11,"Grocery store"
+852,"2022-07-21 18:40:00",credit,56.0992,Emily,3,9,Restaurant
+853,"2022-07-22 20:58:22",debit,-49.8594,Emily,4,14,
+854,"2022-07-23 23:16:45",credit,124.329,Emily,2,5,"Gas station"
+855,"2022-07-25 01:35:08",credit,113.062,Emily,1,4,"Grocery store"
+856,"2022-07-26 03:53:30",debit,-84.2502,David,2,8,"Grocery store"
+857,"2022-07-27 06:11:53",credit,125.314,Bob,5,17,"Grocery store"
+858,"2022-07-28 08:30:16",debit,-139.391,Bob,3,12,Restaurant
+859,"2022-07-29 10:48:38",debit,-123.389,Charlie,1,1,"Grocery store"
+860,"2022-07-30 13:07:01",debit,-25.9538,Charlie,3,11,"Gas station"
+861,"2022-07-31 15:25:24",debit,-110.952,Bob,1,1,"Grocery store"
+862,"2022-08-01 17:43:47",debit,-138.779,Emily,5,18,"Gas station"
+863,"2022-08-02 20:02:09",credit,106.919,David,5,18,"Gas station"
+864,"2022-08-03 22:20:32",credit,176.893,David,2,5,"Grocery store"
+865,"2022-08-05 00:38:55",credit,90.614,Emily,1,4,Restaurant
+866,"2022-08-06 02:57:17",debit,-159.755,Alice,5,18,Restaurant
+867,"2022-08-07 05:15:40",debit,-103.746,Charlie,1,2,Restaurant
+868,"2022-08-08 07:34:03",credit,217.863,Alice,1,2,"Gas station"
+869,"2022-08-09 09:52:25",debit,-96.1798,Alice,3,11,
+870,"2022-08-10 12:10:48",credit,116.133,David,3,10,"Grocery store"
+871,"2022-08-11 14:29:11",debit,-88.3187,Emily,4,15,
+872,"2022-08-12 16:47:34",credit,68.2943,Alice,5,18,
+873,"2022-08-13 19:05:56",debit,-83.2226,Charlie,5,20,"Gas station"
+874,"2022-08-14 21:24:19",debit,-81.8409,Bob,3,10,
+875,"2022-08-15 23:42:42",debit,-36.9443,Emily,5,17,"Grocery store"
+876,"2022-08-17 02:01:04",credit,21.8744,Emily,2,5,"Grocery store"
+877,"2022-08-18 04:19:27",debit,-89.067,Bob,5,18,Restaurant
+878,"2022-08-19 06:37:50",debit,-43.8433,Bob,1,2,
+879,"2022-08-20 08:56:12",credit,88.563,Bob,4,13,
+880,"2022-08-21 11:14:35",credit,48.1727,Emily,4,14,
+881,"2022-08-22 13:32:58",debit,-9.57693,Emily,3,12,"Gas station"
+882,"2022-08-23 15:51:21",credit,66.3419,Bob,1,2,"Gas station"
+883,"2022-08-24 18:09:43",debit,-92.4598,Charlie,2,6,"Gas station"
+884,"2022-08-25 20:28:06",credit,39.9402,David,1,1,"Grocery store"
+885,"2022-08-26 22:46:29",debit,-104.178,Charlie,5,20,
+886,"2022-08-28 01:04:51",debit,-190.961,Bob,3,10,"Gas station"
+887,"2022-08-29 03:23:14",debit,-72.1871,Emily,1,1,"Grocery store"
+888,"2022-08-30 05:41:37",credit,49.3124,Bob,5,18,Restaurant
+889,"2022-08-31 08:00:00",credit,140.248,Emily,3,9,Restaurant
+890,"2022-09-01 10:18:22",debit,-156.942,Emily,5,19,"Grocery store"
+891,"2022-09-02 12:36:45",debit,-54.3394,Bob,1,1,Restaurant
+892,"2022-09-03 14:55:08",credit,202.375,Bob,4,15,Restaurant
+893,"2022-09-04 17:13:30",debit,-55.2609,Bob,4,16,"Grocery store"
+894,"2022-09-05 19:31:53",credit,152.955,David,1,4,"Gas station"
+895,"2022-09-06 21:50:16",debit,-69.7072,Emily,5,19,
+896,"2022-09-08 00:08:38",credit,45.1584,Emily,3,12,Restaurant
+897,"2022-09-09 02:27:01",debit,-110.882,Alice,5,19,"Grocery store"
+898,"2022-09-10 04:45:24",credit,206.102,Bob,4,15,"Grocery store"
+899,"2022-09-11 07:03:47",debit,-156.075,Bob,3,10,"Grocery store"
+900,"2022-09-12 09:22:09",debit,-44.9417,David,2,8,"Gas station"
+901,"2022-09-13 11:40:32",credit,36.3714,Bob,5,19,Restaurant
+902,"2022-09-14 13:58:55",credit,142.173,David,5,17,"Grocery store"
+903,"2022-09-15 16:17:17",credit,143.698,Emily,3,10,"Gas station"
+904,"2022-09-16 18:35:40",credit,41.8873,David,2,5,Restaurant
+905,"2022-09-17 20:54:03",debit,-106.309,David,3,11,"Gas station"
+906,"2022-09-18 23:12:25",credit,125.289,Alice,1,4,"Grocery store"
+907,"2022-09-20 01:30:48",credit,133.476,Alice,4,15,"Gas station"
+908,"2022-09-21 03:49:11",debit,-124.17,Alice,5,20,"Grocery store"
+909,"2022-09-22 06:07:34",credit,78.0822,Bob,2,6,Restaurant
+910,"2022-09-23 08:25:56",credit,93.0239,David,4,15,"Grocery store"
+911,"2022-09-24 10:44:19",credit,183.394,Charlie,3,11,Restaurant
+912,"2022-09-25 13:02:42",debit,-145.318,David,4,16,Restaurant
+913,"2022-09-26 15:21:04",debit,-143.015,David,2,6,"Grocery store"
+914,"2022-09-27 17:39:27",debit,-99.5293,Emily,2,5,"Gas station"
+915,"2022-09-28 19:57:50",debit,-59.6226,Bob,3,10,"Grocery store"
+916,"2022-09-29 22:16:12",debit,-60.7594,Alice,3,11,
+917,"2022-10-01 00:34:35",credit,34.2242,Emily,1,2,"Gas station"
+918,"2022-10-02 02:52:58",debit,-134.376,Emily,5,20,"Grocery store"
+919,"2022-10-03 05:11:21",credit,92.1382,Bob,2,5,"Grocery store"
+920,"2022-10-04 07:29:43",credit,115.17,Emily,2,8,
+921,"2022-10-05 09:48:06",credit,81.8297,David,4,14,"Gas station"
+922,"2022-10-06 12:06:29",credit,72.3674,Bob,1,4,"Grocery store"
+923,"2022-10-07 14:24:51",credit,120.721,David,2,7,Restaurant
+924,"2022-10-08 16:43:14",debit,-108.759,David,3,11,"Grocery store"
+925,"2022-10-09 19:01:37",debit,-73.5242,Emily,2,8,"Gas station"
+926,"2022-10-10 21:20:00",debit,-96.6272,David,4,16,"Grocery store"
+927,"2022-10-11 23:38:22",debit,-152.941,Alice,4,15,"Grocery store"
+928,"2022-10-13 01:56:45",credit,94.1051,David,5,17,"Grocery store"
+929,"2022-10-14 04:15:08",credit,7.32896,Alice,5,20,"Gas station"
+930,"2022-10-15 06:33:30",debit,-64.9075,Emily,5,18,Restaurant
+931,"2022-10-16 08:51:53",credit,113.12,Charlie,2,8,"Gas station"
+932,"2022-10-17 11:10:16",debit,-13.7702,David,5,20,"Grocery store"
+933,"2022-10-18 13:28:38",credit,113.829,Alice,5,19,"Gas station"
+934,"2022-10-19 15:47:01",credit,153.651,Alice,4,14,Restaurant
+935,"2022-10-20 18:05:24",debit,-131.764,Emily,3,11,"Grocery store"
+936,"2022-10-21 20:23:47",credit,8.92741,Bob,4,15,
+937,"2022-10-22 22:42:09",credit,115.602,Charlie,1,3,Restaurant
+938,"2022-10-24 01:00:32",credit,178.619,Alice,2,8,"Gas station"
+939,"2022-10-25 03:18:55",credit,200.14,Charlie,3,12,
+940,"2022-10-26 05:37:17",debit,-100.466,Emily,1,4,
+941,"2022-10-27 07:55:40",debit,-43.579,David,5,17,Restaurant
+942,"2022-10-28 10:14:03",credit,37.0434,Alice,1,2,"Grocery store"
+943,"2022-10-29 12:32:25",credit,86.6438,Alice,1,1,"Gas station"
+944,"2022-10-30 14:50:48",debit,-187.745,Charlie,3,9,Restaurant
+945,"2022-10-31 17:09:11",credit,102.954,Bob,3,11,Restaurant
+946,"2022-11-01 19:27:34",debit,-147.325,Bob,4,16,"Grocery store"
+947,"2022-11-02 21:45:56",credit,110.63,Bob,2,7,
+948,"2022-11-04 00:04:19",credit,73.6162,Emily,5,20,"Gas station"
+949,"2022-11-05 02:22:42",credit,45.2294,Bob,2,8,Restaurant
+950,"2022-11-06 04:41:04",credit,119.517,Alice,3,10,"Grocery store"
+951,"2022-11-07 06:59:27",debit,-92.6429,Charlie,4,13,Restaurant
+952,"2022-11-08 09:17:50",credit,73.8816,Charlie,2,7,
+953,"2022-11-09 11:36:12",debit,-131.529,Charlie,1,2,"Gas station"
+954,"2022-11-10 13:54:35",credit,201.246,Alice,4,14,Restaurant
+955,"2022-11-11 16:12:58",debit,-178.654,Emily,1,1,Restaurant
+956,"2022-11-12 18:31:21",debit,-205.724,Alice,1,4,Restaurant
+957,"2022-11-13 20:49:43",debit,-131.002,Charlie,1,1,Restaurant
+958,"2022-11-14 23:08:06",debit,-126.688,Charlie,4,13,Restaurant
+959,"2022-11-16 01:26:29",debit,-186.159,David,1,4,Restaurant
+960,"2022-11-17 03:44:51",debit,-30.47,David,4,14,
+961,"2022-11-18 06:03:14",debit,-130.686,Emily,1,4,"Gas station"
+962,"2022-11-19 08:21:37",credit,137.335,Alice,1,4,"Grocery store"
+963,"2022-11-20 10:40:00",debit,-24.791,Bob,3,10,"Gas station"
+964,"2022-11-21 12:58:22",debit,-15.6266,Emily,5,20,
+965,"2022-11-22 15:16:45",credit,160.349,David,5,19,Restaurant
+966,"2022-11-23 17:35:08",credit,57.9962,David,1,3,Restaurant
+967,"2022-11-24 19:53:30",debit,-211.629,Bob,1,4,
+968,"2022-11-25 22:11:53",credit,12.0657,Alice,5,18,
+969,"2022-11-27 00:30:16",credit,158.439,Alice,1,4,
+970,"2022-11-28 02:48:38",credit,45.5224,Alice,1,2,"Gas station"
+971,"2022-11-29 05:07:01",credit,198.893,Bob,5,18,"Grocery store"
+972,"2022-11-30 07:25:24",debit,-116.506,David,1,3,"Gas station"
+973,"2022-12-01 09:43:47",credit,174.07,David,5,19,
+974,"2022-12-02 12:02:09",debit,-79.9182,Charlie,2,8,Restaurant
+975,"2022-12-03 14:20:32",debit,-181.706,Bob,2,8,Restaurant
+976,"2022-12-04 16:38:55",debit,-11.7727,Charlie,3,11,"Grocery store"
+977,"2022-12-05 18:57:17",debit,-206.709,Charlie,5,17,"Gas station"
+978,"2022-12-06 21:15:40",debit,-73.9207,Emily,3,12,"Grocery store"
+979,"2022-12-07 23:34:03",credit,62.5733,Bob,2,5,"Gas station"
+980,"2022-12-09 01:52:25",credit,105.283,Emily,1,1,Restaurant
+981,"2022-12-10 04:10:48",debit,-64.9256,Charlie,1,4,
+982,"2022-12-11 06:29:11",credit,130.404,David,2,8,
+983,"2022-12-12 08:47:34",credit,75.6654,Charlie,1,1,Restaurant
+984,"2022-12-13 11:05:56",credit,116.885,Emily,3,12,"Gas station"
+985,"2022-12-14 13:24:19",debit,-147.454,Emily,1,4,"Gas station"
+986,"2022-12-15 15:42:42",credit,75.4135,Emily,2,5,"Gas station"
+987,"2022-12-16 18:01:04",credit,72.4189,Charlie,1,4,"Grocery store"
+988,"2022-12-17 20:19:27",debit,-102.31,Alice,1,2,"Grocery store"
+989,"2022-12-18 22:37:50",credit,100.208,Alice,3,12,
+990,"2022-12-20 00:56:12",debit,-57.0649,Bob,3,11,
+991,"2022-12-21 03:14:35",debit,-137.244,Bob,4,15,"Grocery store"
+992,"2022-12-22 05:32:58",debit,-80.3899,Bob,1,1,"Grocery store"
+993,"2022-12-23 07:51:21",debit,-63.4145,Charlie,4,16,
+994,"2022-12-24 10:09:43",credit,97.7117,Emily,2,7,
+995,"2022-12-25 12:28:06",credit,46.1419,Emily,1,1,"Gas station"
+996,"2022-12-26 14:46:29",credit,55.8508,Emily,2,5,"Gas station"
+997,"2022-12-27 17:04:51",debit,-131.647,Charlie,3,10,"Gas station"
+998,"2022-12-28 19:23:14",credit,135.152,Alice,3,12,
+999,"2022-12-29 21:41:37",credit,45.3366,David,2,7,
+1000,"2022-12-31 00:00:00",credit,109.324,Bob,2,8,Restaurant
