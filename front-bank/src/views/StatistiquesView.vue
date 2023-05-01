@@ -31,13 +31,15 @@
         </form>
         <div ref="chart"></div>
         </div>
-        <div style="margin-top: 50px;">
+        <div class="stat-container">
             <TransactionByCategorie :month="selectedMonth" :year="selectedYear"></TransactionByCategorie>
         </div>
-        <div style="margin-top: 100px;">
+        <br>
+        <div class="stat-container">
             <MonthlySaved></MonthlySaved>
         </div>
-        <div style="margin-top: 100px;">
+        <br>
+        <div class="stat-container">
             <BalanceEvolution></BalanceEvolution>
         </div>
 </template>
@@ -63,3 +65,14 @@ export default {
   }
 }
 </script>
+
+<style>
+.stat-container {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 50px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+</style>

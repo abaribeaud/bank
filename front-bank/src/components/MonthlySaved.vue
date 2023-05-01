@@ -28,7 +28,7 @@
       drawChart() {
         // Set the dimensions and margins of the graph
         const margin = { top: 20, right: 20, bottom: 120, left: 120 }; // increase bottom margin to make space for the rotated label
-        const width = 1400 - margin.left - margin.right;
+        const width = window.innerWidth * 0.85 - margin.left - margin.right;
         const height = 500 - margin.top - margin.bottom;
 
         // Set the ranges for the 2 axis

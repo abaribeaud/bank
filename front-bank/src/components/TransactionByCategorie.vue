@@ -46,7 +46,7 @@
 
         // Set the dimensions and margins of the graph
         const margin = { top: 50, right: 50, bottom: 100, left: 100 };
-        const width = 1000 - margin.left - margin.right;
+        const width = window.innerWidth * 0.85 - margin.left - margin.right;
         const height = 600 - margin.top - margin.bottom;
 
         // Create the svg element
