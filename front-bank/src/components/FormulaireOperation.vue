@@ -40,6 +40,7 @@
                     <i class="fa-solid fa-list" style="margin-right: 10px;"></i>
                     <label for="sousCategorie">Sous-catégorie</label>
                     <select class="form-control" id="sousCategorie" v-model="sousCategorie">
+                        <!-- Ici on filtre avec la fonction subCategories() les éléments que l'on peut afficher dans la liste déroulante-->
                         <option v-for="sub in subCategories" :key="sub.sub_id" :value="sub.sub_label">{{ sub.sub_label }}
                         </option>
                     </select>
@@ -60,6 +61,8 @@
 
 export default {
     name: 'FormulaireOperation',
+
+    // Construction du formulaire vide
     data() {
         return {
             categories: [],
@@ -70,11 +73,11 @@ export default {
             destinataire: '',
             categorie: '',
             intitule: '',
-            sousCategorie: ''
+            sousCategorie: '',
         }
     },
     mounted() {
-        // Récupère les catégories sur l'API Flask
+        // Récupère les catégories sur l'API Flask et les ajoutes dans le formulaire pour la liste déroulante
         fetch('http://127.0.0.1:5000/categories')
             .then(response => {
                 return response.json();
@@ -86,7 +89,7 @@ export default {
                 console.log(error);
             });
 
-        // Récupère les sous-catégories sur l'API Flask
+        // Récupère les sous-catégories sur l'API Flask et les ajoutes dans le formulaire pour la liste déroulante
         fetch('http://127.0.0.1:5000/sous_categories')
             .then(response => {
                 return response.json();
@@ -99,6 +102,7 @@ export default {
             });
     },
     methods: {
+        // Vérifie que tous les champs obligatoires sont complétés
         validateForm() {
             if (this.date && this.montant && this.destinataire && this.categorie && this.intitule && this.sousCategorie) {
                 return true;
@@ -106,28 +110,51 @@ export default {
                 return false;
             }
         },
+        // Déclenche l'envoi du formulaire (notamment pour le ResumeOperation et TableOperation)
         submitForm() {
-            console.log(this.categorie)
-            this.$emit('form-submitted', {
+            var dataSubmited = {
                 date: this.date,
-                type:  this.montant < 0 ? 'debit' : 'credit',
+                type: this.montant < 0 ? 'debit' : 'credit',
                 montant: this.montant,
                 destinataire: this.destinataire,
                 categorie: this.categorie.cat_label,
                 sousCategorie: this.sousCategorie,
                 intitule: this.intitule
-            });
+            }
 
-            this.date = '';
-            this.type = '';
-            this.montant = '',
-            this.destinataire = '',
-            this.categorie = '',
-            this.sousCategorie = '',
-            this.intitule = ''
+            fetch('http://127.0.0.1:5000/add_operations', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(dataSubmited)
+            })
+                .then(response => {
+                    if (response.ok) {
+                        this.$emit('form-submitted', dataSubmited);
+                    } else {
+                        throw new Error('Erreur lors de l\'envoi des données');
+                    }
+                })
+                .then(data => {
+                    console.log(data);
+                    this.date = '';
+                    this.type = '';
+                    this.montant = '',
+                    this.destinataire = '',
+                    this.categorie = '',
+                    this.sousCategorie = '',
+                    this.intitule = ''
+                })
+                .catch(error => {
+                    console.log(error);
+                    
+                });
         }
     },
     computed: {
+        // Les sous-catégorie sont contraintes par la catégorie choisi
+        // On affiche donc uniquement les sous-catégorie en lien avec la catégorie choisi
         subCategories() {
             return this.souscat.filter(souscat => {
                 return souscat.sub_cat === this.categorie.cat_id
@@ -136,9 +163,3 @@ export default {
     }
 }
 </script>
-  
-<style scoped>
-/* Styles du formulaire ici */
-</style>
-  
-

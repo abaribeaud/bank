@@ -2,8 +2,8 @@
     <div>
         <h1>Operations</h1>
         <FormulaireOperation @form-submitted="handleFormSubmitted" />
-        <ResumeOperation :formData="formData" v-if="showFormData" />
-        <TableOperation ref="formDataSummary" />
+        <ResumeOperation class="table-operation" :formData="formData" v-if="showFormData" />
+        <TableOperation  class="table-operation" ref="formDataSummary" />
     </div>
 </template>
   
@@ -36,3 +36,10 @@ export default {
     }
 }
 </script>
+
+<style>
+.table-operation {
+  max-width: 90%;
+  margin: 0 auto;
+}
+</style>
