@@ -16,12 +16,18 @@
     </div>
   </nav>
   <router-view />
+  <FooterGlobal class="sticky-footer"/>
 </template>
 
 <script>
 import '@fortawesome/fontawesome-free/css/all.css'
+import FooterGlobal from '@/components/FooterGlobal.vue'
+
 export default {
     name: 'App',
+    components: {
+      FooterGlobal
+    }
 }
 </script>
 
@@ -46,5 +52,10 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.sticky-footer {
+  position: sticky;
+  top: 100vh;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>  
         <br>      
-        <div class="alert alert-success" role="alert">
+        <div class="alert alert-info" style="max-width: 90%;margin: 0 auto;" role="alert">
             <h3 class="text-center">Résumé de l'opération</h3>
             <div class="container-fluid">
                 <div class="row">
@@ -34,6 +34,8 @@
 <script>
 export default {
     name: 'ResumeOperation',
+
+    // Récéption du formulaire lorqu'il est envoyé
     props: {
         formData: {
             type: Object,
