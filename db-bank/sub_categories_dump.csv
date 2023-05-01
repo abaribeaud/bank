@@ -1,0 +1,21 @@
+sub_id,sub_label,sub_cat
+1,Bakery,1
+2,Produce,1
+3,Meat,1
+4,Deli,1
+5,Italian,2
+6,Sushi,2
+7,Mexican,2
+8,French,2
+9,"Coffee shop",3
+10,"Car wash",3
+11,Gas,3
+12,Candy,3
+13,Movies,4
+14,Concerts,4
+15,Opera,4
+16,"Laser game",4
+17,Clothing,5
+18,Electronics,5
+19,Books,5
+20,DIY,5

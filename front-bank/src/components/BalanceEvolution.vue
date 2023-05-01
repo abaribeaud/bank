@@ -16,19 +16,24 @@
       };
     },
     mounted() {
+        // Get data from the backend and store it in chartData then draw the chart
+        // Use mounted hook to call getData() when the component is mounted
       this.getData();
     },
     methods: {
       async getData() {
+        // Get data from the backend and store it in chartData then draw the chart
         const response = await axios.get('http://127.0.0.1:5000/get_balance_evolution');
         this.chartData = response.data;
         this.drawChart();
       },
       drawChart() {
+        // Set the dimensions and margins of the graph
         const margin = { top: 20, right: 20, bottom: 120, left: 120 }; // increase bottom margin to make space for the rotated label
         const width = 1400 - margin.left - margin.right;
         const height = 500 - margin.top - margin.bottom;
 
+        // Set the ranges for the 2 axis
         const x = d3
             .scaleBand()
             .range([0, width])
@@ -40,10 +45,12 @@
             .range([height, 0])
             .domain([d3.min(this.chartData, (d) => d.tr_amount), d3.max(this.chartData, (d) => d.tr_amount)]);
 
+        // Set the line parameters
         const line = d3.line()
             .x((d) => x(d.year_month) + x.bandwidth() / 2)
             .y((d) => y(d.tr_amount));
 
+        // Create the svg element
         const svg = d3
             .select(this.$refs.lineChart)
             .attr('width', width + margin.left + margin.right)
@@ -51,6 +58,7 @@
             .append('g')
             .attr('transform', `translate(${margin.left},${margin.top})`);
 
+        // Add the line
         svg
             .append('path')
             .datum(this.chartData)
@@ -58,7 +66,8 @@
             .attr('stroke', 'steelblue')
             .attr('stroke-width', 2)
             .attr('d', line);
-
+        
+        // Add the x-axis
         svg
             .append('g')
             .attr('transform', `translate(0,${height})`)
@@ -68,12 +77,14 @@
             .attr('text-anchor', 'end') // align x-axis tick labels to the end of tick
             .attr('font-size', 14);
 
+        // Add the y-axis
         svg
             .append('g')
             .call(d3.axisLeft(y))
             .selectAll('text')
             .attr('font-size', 14);
 
+        // Add x-axis label
         svg
             .append('text')
             .attr('text-anchor', 'middle')
@@ -81,6 +92,7 @@
             .attr('font-size', 18)
             .text('Year-Month');
 
+        // Add y-axis label
         svg
             .append('text')
             .attr('text-anchor', 'middle')
