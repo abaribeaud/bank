@@ -35,7 +35,7 @@
 export default {
     name: 'ResumeOperation',
 
-    // Récéption du formulaire lorqu'il est envoyé
+    // Receiving the form when it is sent
     props: {
         formData: {
             type: Object,

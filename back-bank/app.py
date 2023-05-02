@@ -22,7 +22,7 @@ def get_categories():
 
 @app.route("/sous_categories", methods=['GET'])
 def get_sub_categories():
-    """ Get categories from database """
+    """ Get sub categories from database """
     sub_cat = sous_categories.to_json(orient="records")
     return sub_cat
 
@@ -36,13 +36,20 @@ def get_operation():
 @app.route("/last_10_operations", methods=['GET'])
 def get_last_10_operation():
     """ Get operations from database """
+
+    # Get 10 last operations sorted by date in databse
     last_ope = operations.sort_values(by=["tr_date"], ascending=False).head(20)
     
+    # Merge each operations with cat and sub cat
     last_ope = last_ope.merge(categories, left_on=["tr_category"], right_on=["cat_id"])
     last_ope = last_ope.merge(sous_categories, left_on=["tr_sub_category"], right_on=["sub_id"])
     last_ope = last_ope.drop(["tr_category", "tr_sub_category", "cat_id", "sub_id"], axis=1)
 
+    # Rename columns
     last_ope = last_ope.rename(columns=col)
+
+    # Sort by new column name 'Date'
+    last_ope = last_ope.sort_values(by=["date"], ascending=False)
     ope = last_ope.to_json(orient="records")
     return ope
 

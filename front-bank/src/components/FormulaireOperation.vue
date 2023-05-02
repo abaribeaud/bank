@@ -40,7 +40,7 @@
                     <i class="fa-solid fa-list" style="margin-right: 10px;"></i>
                     <label for="sousCategorie">Sous-catégorie</label>
                     <select class="form-control" id="sousCategorie" v-model="sousCategorie">
-                        <!-- Ici on filtre avec la fonction subCategories() les éléments que l'on peut afficher dans la liste déroulante-->
+                        <!-- We filter with the subCategories() function the elements that we can display in the dropdown list -->
                         <option v-for="sub in subCategories" :key="sub.sub_id" :value="sub.sub_label">{{ sub.sub_label }}
                         </option>
                     </select>
@@ -49,6 +49,7 @@
             <br>
             <div class="row">
                 <div class="col-sm-6 form-group d-flex align-items-end">
+                    <!-- Disable submit button while form data are invalid -->
                     <button type="submit" class="btn btn-success" @click.prevent="submitForm"
                         :disabled="!validateForm()">Envoyer</button>
                 </div>
@@ -62,7 +63,7 @@
 export default {
     name: 'FormulaireOperation',
 
-    // Construction du formulaire vide
+    // Construct empty form
     data() {
         return {
             categories: [],
@@ -77,7 +78,7 @@ export default {
         }
     },
     mounted() {
-        // Récupère les catégories sur l'API Flask et les ajoutes dans le formulaire pour la liste déroulante
+        // Get the categories from the Flask API and add them to the form for the dropdown list
         fetch('http://127.0.0.1:5000/categories')
             .then(response => {
                 return response.json();
@@ -89,7 +90,7 @@ export default {
                 console.log(error);
             });
 
-        // Récupère les sous-catégories sur l'API Flask et les ajoutes dans le formulaire pour la liste déroulante
+        // Get the subcategories from the Flask API and add them to the form for the dropdown list
         fetch('http://127.0.0.1:5000/sous_categories')
             .then(response => {
                 return response.json();
@@ -102,7 +103,7 @@ export default {
             });
     },
     methods: {
-        // Vérifie que tous les champs obligatoires sont complétés
+        // Checks that all required fields are completed
         validateForm() {
             if (this.date && this.montant && this.destinataire && this.categorie && this.intitule && this.sousCategorie) {
                 return true;
@@ -110,7 +111,7 @@ export default {
                 return false;
             }
         },
-        // Déclenche l'envoi du formulaire (notamment pour le ResumeOperation et TableOperation)
+        // Trigger the sending of the form (especially for the ResumeOperation and TableOperation)
         submitForm() {
             var dataSubmited = {
                 date: this.date,
@@ -122,6 +123,7 @@ export default {
                 intitule: this.intitule
             }
 
+            // First : add operations in database throught Flask API
             fetch('http://127.0.0.1:5000/add_operations', {
                 method: 'POST',
                 headers: {
@@ -130,6 +132,7 @@ export default {
                 body: JSON.stringify(dataSubmited)
             })
                 .then(response => {
+                    // In case of successfull response, emit the form to the other composents
                     if (response.ok) {
                         this.$emit('form-submitted', dataSubmited);
                     } else {
@@ -137,6 +140,7 @@ export default {
                     }
                 })
                 .then(data => {
+                    // Empty the form for the next operation
                     console.log(data);
                     this.date = '';
                     this.type = '';
@@ -153,8 +157,8 @@ export default {
         }
     },
     computed: {
-        // Les sous-catégorie sont contraintes par la catégorie choisi
-        // On affiche donc uniquement les sous-catégorie en lien avec la catégorie choisi
+        // Subcategories are constrained by the chosen category
+        // We only show the subcategories related to the chosen category
         subCategories() {
             return this.souscat.filter(souscat => {
                 return souscat.sub_cat === this.categorie.cat_id
