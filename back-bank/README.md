@@ -1,5 +1,9 @@
 ## Back-bank
 
+### Install dependency
+
+pip install -r requirements.txt
+
 ### Run flask server
 
 ```
