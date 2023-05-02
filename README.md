@@ -13,6 +13,8 @@ Le projet est développé avec plusieurs techno :
 - Backend : Flask
 - BDD : csv
 
+![Architecture](img/architecture.jpg)
+
 
 ## Comment déployer l'application :
 
@@ -54,3 +56,5 @@ npm run serve
 ```
 
 Local: http://localhost:8080/
+
+![Architecture](img/deploy.jpg)
