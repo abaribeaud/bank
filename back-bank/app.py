@@ -95,7 +95,7 @@ def get_operation_with_category():
     ope = ope.to_json(orient="records")
     return ope
 
-@app.route("/get_amount_by_month")
+@app.route("/amount_by_month")
 def get_amount_by_month():
     
     # Subset of amount and date
@@ -114,7 +114,7 @@ def get_amount_by_month():
     ope = ope.to_json(orient="records",index=True)
     return ope
 
-@app.route("/get_balance_evolution")
+@app.route("/balance_evolution")
 def get_balance_evolution():
     
     # Subset of amount and date

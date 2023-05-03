@@ -23,7 +23,7 @@
     methods: {
       async getData() {
         // Get data from the backend and store it in chartData then draw the chart
-        const response = await axios.get('http://127.0.0.1:5000/get_balance_evolution');
+        const response = await axios.get('http://127.0.0.1:5000/balance_evolution');
         this.chartData = response.data;
         this.drawChart();
       },

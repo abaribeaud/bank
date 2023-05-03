@@ -21,7 +21,7 @@
     methods: {
       async getData() {
         // Get data from the backend and store it in chartData then draw the chart
-        const response = await axios.get('http://127.0.0.1:5000/get_amount_by_month');
+        const response = await axios.get('http://127.0.0.1:5000/amount_by_month');
         this.chartData = response.data;
         this.drawChart();
       },
