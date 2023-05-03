@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div style="max-width: 90%;margin: 0 auto;">
         <form>
             <div class="row">
                 <div class="col-sm-6 form-group">
