@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2>Transactions par categories</h2>
+      <h2>Transactions par catégories</h2>
       <div ref="chart"></div>
     </div>
   </template>
@@ -102,7 +102,7 @@
             .attr('text-anchor', 'middle')
             .attr('transform', `translate(${width / 2},${height + margin.top + 40})`)
             .attr('font-size', 18)
-            .text('Categories');
+            .text('Catégories');
 
         // Add the y axis label
         svg
