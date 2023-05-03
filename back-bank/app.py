@@ -67,8 +67,8 @@ def delete_operation(id):
     # TODO : Modifier la base de données
     return "200"
 
-@app.route("/operations_with_category")
-def get_operation_with_category():
+@app.route("/operations_by_category")
+def get_operation_by_category():
     
     # Get start and end dates from request
     start_date = request.args.get("start_date")

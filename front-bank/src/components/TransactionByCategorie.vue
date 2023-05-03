@@ -30,7 +30,7 @@
       async getData() {
         // Get data from the backend and store it in data then draw the chart
         try {
-          const response = await axios.get(`http://127.0.0.1:5000/operations_with_category?start_date=${this.year}-${this.month}-01&end_date=${this.year}-${this.month}-${new Date(this.year, this.month, 0).getDate()}`)
+          const response = await axios.get(`http://127.0.0.1:5000/operations_by_category?start_date=${this.year}-${this.month}-01&end_date=${this.year}-${this.month}-${new Date(this.year, this.month, 0).getDate()}`)
           this.data = await response.data;
           this.drawChart()
         } catch (error) {
