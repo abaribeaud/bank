@@ -2,13 +2,13 @@
 
 Le projet Bank est une application bancaire de monitoring.  
 Il permet de :  
-- suivire l'évolution de son argent via différent indicateurs
+- suivre l'évolution de son argent via différent indicateurs
 - ajouter ou supprimer des opérations bancaires
 
 
 ## Technologie :
 
-Le projet est développé avec plusieurs techno :
+Le projet est développé avec trois techno :
 - Frontend : VueJS
 - Backend : Flask
 - BDD : csv
@@ -24,7 +24,7 @@ Le projet est développé avec plusieurs techno :
 
 ```
 cd back-bank/
-pip install -r requirements.tst
+pip install -r requirements.txt
 ```
 
 2. Lancer l'api Flask :  
