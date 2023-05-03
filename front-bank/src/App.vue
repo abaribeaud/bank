@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <router-link class="nav-link" to="/statistiques">Statistique</router-link>
+          <router-link class="nav-link" to="/statistiques">statistiques</router-link>
         </li>
         <li class="nav-item">
           <router-link class="nav-link" to="/operations">Opérations</router-link>

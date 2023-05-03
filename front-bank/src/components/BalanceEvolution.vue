@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2>Balance Evolution</h2>
+      <h2>Evolution du solde</h2>
       <svg ref="lineChart"></svg>
     </div>
   </template>
@@ -90,7 +90,7 @@
             .attr('text-anchor', 'middle')
             .attr('transform', `translate(${width / 2},${height + margin.top + 50})`)
             .attr('font-size', 18)
-            .text('Year-Month');
+            .text('Année-Mois');
 
         // Add y-axis label
         svg

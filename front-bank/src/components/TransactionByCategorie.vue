@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2>Bank Transactions by Category</h2>
+      <h2>Transactions par categorie</h2>
       <div ref="chart"></div>
     </div>
   </template>
