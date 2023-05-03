@@ -105,7 +105,7 @@ export default {
     methods: {
         // Checks that all required fields are completed
         validateForm() {
-            if (this.date && this.montant && this.destinataire && this.categorie && this.intitule && this.sousCategorie) {
+            if (this.date && this.montant && this.destinataire && this.categorie && this.sousCategorie) {
                 return true;
             } else {
                 return false;
