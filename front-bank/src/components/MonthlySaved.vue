@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2>Dépenses mensuelles</h2>
+      <h2>Economies mensuelles</h2>
       <svg ref="lineChart"></svg>
     </div>
   </template>

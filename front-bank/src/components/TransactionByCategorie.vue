@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2>Transactions par categorie</h2>
+      <h2>Transactions par categories</h2>
       <div ref="chart"></div>
     </div>
   </template>
@@ -49,6 +49,14 @@
         const width = window.innerWidth * 0.85 - margin.left - margin.right;
         const height = 600 - margin.top - margin.bottom;
 
+        const categoryColors = {
+          'Courses': 'steelblue',
+          'Restaurants': 'orange',
+          'Stations essence': 'green',
+          'Divertissement': 'red',
+          'Shopping': 'purple'
+        }
+
         // Create the svg element
         const svg = d3
             .select(this.$refs.chart)
@@ -63,15 +71,15 @@
             .scaleBand()
             .range([0, width])
             .padding(0.1)
-            .domain(this.data.map((d) => d.categorie));
+            .domain(this.data.map((d) => d.cat_label));
 
-        // Add the x axis
+        // Declare the x axis
         const y = d3
             .scaleLinear()
             .range([height, 0])
-            .domain([0, d3.max(this.data, (d) => d.montant)]);
+            .domain([d3.min(this.data, (d) => d.tr_amount), d3.max(this.data, (d) => d.tr_amount)]);
 
-        // Add the y axis
+        // Add the x axis
         svg
             .append('g')
             .attr('transform', `translate(0,${height})`)
@@ -110,13 +118,13 @@
             .data(this.data)
             .enter()
             .append('rect')
-            .attr('class', 'bar')
-            .attr('x', (d) => x(d.categorie))
-            .attr('y', (d) => y(d.montant))
+            .attr('x', (d) => x(d.cat_label))
+            .attr('y', (d) => y(Math.max(0, d.tr_amount)))
             .attr('width', x.bandwidth())
-            .attr('height', (d) => height - y(d.montant))
-            .attr('fill', 'steelblue');
+            .attr('height', (d) => Math.abs(y(d.tr_amount) - y(0)))
+            .attr('fill', (d) => categoryColors[d.cat_label]);
         },
+        
 
 
     },

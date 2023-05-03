@@ -82,14 +82,16 @@ def get_operation_with_category():
     ope = pd.to_datetime(operations["tr_date"], format="%Y-%m-%d %H:%M:%S") # YYYY-MM-DD HH:mm:ss
     ope = operations[(ope >= start_date) & (ope <= end_date)]
 
-    # Merge with categories and sub_categories
-    ope = ope.merge(categories, left_on=["tr_category"], right_on=["cat_id"])
-    ope = ope.merge(sous_categories, left_on=["tr_sub_category"], right_on=["sub_id"])
-    ope = ope.drop(["tr_category", "tr_sub_category", "cat_id", "sub_id"], axis=1)
+    # Subset of amount and category
+    ope = ope[["tr_amount","tr_category"]]
 
-    # Rename columns and keep only useful ones then convert to json
-    ope = ope.rename(columns=col)
-    ope = ope[["date","montant","categorie","sousCategorie"]]
+    # Group by categorie and sum amount
+    ope = ope.groupby("tr_category").sum()
+
+    # Merge with categories and drop cat_id column
+    ope = ope.merge(categories, left_index= True, right_on=["cat_id"])
+    ope = ope.drop(["cat_id"], axis=1)
+    
     ope = ope.to_json(orient="records")
     return ope
 
