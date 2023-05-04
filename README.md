@@ -18,7 +18,7 @@ Le projet est développé avec trois techno :
 
 ## Comment déployer l'application :
 
-### Backend
+### Backend (Python 3.8.8)
 
 1. Installer les librairies :  
 
@@ -36,7 +36,7 @@ Running on http://127.0.0.1:5000/
 
 ### Frontend
 
-1. Installer le framework VueJS
+1. Installer le framework VueJS (v5.0.8)
 
 ```
 cd front-bank/
